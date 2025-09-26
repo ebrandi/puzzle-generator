@@ -77,7 +77,7 @@ A comprehensive, multilingual puzzle generator built with Next.js. Create profes
 
 ## 🔗 Live Demo
 
-Visit the deployed application: [https://puzzles.genprix.xyz](https://puzzles.genprix.xyz)
+Visit the deployed application: [https://puzzle.forca.club](https://puzzle.forca.club)
 
 ## 🛠 Technology Stack
 
