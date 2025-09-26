@@ -629,4 +629,4 @@ Need help? Here are your options:
 
 **Happy Puzzle Creating! 🧩🔍🔢**
 
-Made with ❤️ by the Ebrandi for educational excellence.
+Made with ❤️  by ebrandi for educational excellence.
