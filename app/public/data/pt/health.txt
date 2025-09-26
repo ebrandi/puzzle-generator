@@ -1,0 +1,50 @@
+CORPO|Estrutura física da pessoa|1
+CABECA|Parte superior do corpo|1
+ROSTO|Frente da cabeça|1
+OLHO|Órgão para ver|1
+OUVIDO|Órgão para ouvir|1
+NARIZ|Órgão para cheirar|1
+BOCA|Abertura para comer e falar|1
+DENTE|Parte branca dura na boca|1
+LINGUA|Músculo na boca para saborear|2
+PESCOCO|Parte conectando cabeça ao corpo|1
+BRACO|Membro superior do corpo|1
+MAO|Parte final do braço|1
+DEDO|Dígito na mão|1
+PERNA|Membro inferior do corpo|1
+PE|Parte final da perna|1
+DEDOPE|Dígito no pé|1
+CORACAO|Órgão que bombeia sangue|2
+PULMAO|Órgão para respirar|2
+CEREBRO|Órgão para pensar|2
+ESTOMAGO|Órgão para digerir comida|2
+FIGADO|Órgão que limpa o sangue|3
+RIM|Órgão que filtra resíduos|3
+OSSO|Parte dura do esqueleto|2
+MUSCULO|Tecido que move o corpo|2
+PELE|Cobertura externa do corpo|1
+SANGUE|Líquido vermelho no corpo|1
+RESPIRACAO|Ar entrando e saindo|1
+PULSO|Batimento cardíaco que se sente|2
+SAUDE|Estado de estar bem|2
+DOENTE|Não se sentindo bem|1
+DOENCA|Enfermidade ou mal|2
+REMEDIO|Substância para tratar doença|2
+MEDICO|Pessoa que trata pessoas doentes|1
+ENFERMEIRO|Pessoa que cuida de pacientes|2
+HOSPITAL|Local para tratar pessoas doentes|2
+CLINICA|Pequena instalação médica|3
+PACIENTE|Pessoa recebendo cuidados médicos|2
+TRATAMENTO|Cuidado médico para doença|3
+CIRURGIA|Operação médica|3
+CURATIVO|Tecido para cobrir feridas|2
+VACINA|Remédio para prevenir doença|3
+VITAMINA|Nutriente necessário para saúde|3
+EXERCICIO|Atividade física para saúde|2
+FORMA|Estar em boa forma física|2
+DIETA|Comida e bebida consumidas|2
+NUTRICAO|Obter nutrientes adequados|3
+SONO|Descanso com olhos fechados|1
+HIGIENE|Manter-se limpo para saúde|3
+FERIMENTO|Dano ao corpo|2
+DOR|Sensação desagradável no corpo|1

@@ -1,0 +1,50 @@
+PELICULA|Película mostrada en teatro|1
+CINE|Imagen en movimiento|2
+TEATRO|Lugar para ver películas|2
+ESCENARIO|Edificio para actuaciones|2
+ACTOR|Persona en películas u obras|2
+ACTRIZ|Artista femenina|2
+DIRECTOR|Persona que hace películas|3
+ESTRELLA|Artista famoso|2
+CELEBRIDAD|Persona famosa|3
+TELEVISION|Dispositivo para ver programas|2
+PROGRAMA|Programa de entretenimiento|1
+SERIE|Episodios conectados|2
+EPISODIO|Parte única de serie|3
+CANAL|Estación de TV|2
+NOTICIAS|Programa de eventos actuales|2
+DIBUJOS|Programa animado|2
+COMEDIA|Entretenimiento divertido|2
+DRAMA|Entretenimiento serio|2
+ACCION|Género de aventura emocionante|2
+TERROR|Entretenimiento aterrador|2
+ROMANCE|Género de historia de amor|2
+MUSICA|Sonidos organizados|1
+CANCION|Pieza musical con palabras|1
+ALBUM|Colección de canciones|2
+CANTANTE|Persona que canta|1
+BANDA|Grupo de músicos|2
+CONCIERTO|Actuación musical en vivo|2
+RADIO|Dispositivo para oír transmisiones|2
+JUEGO|Actividad para diversión|1
+DEPORTE|Competición física|1
+EQUIPO|Grupo jugando junto|1
+JUGADOR|Persona en juego|1
+PARTIDO|Competición entre equipos|2
+GANADOR|Persona que queda primero|1
+CAMPEON|Mejor jugador o equipo|2
+FIESTA|Reunión social|1
+BAILE|Moverse con música|1
+FESTIVAL|Evento de celebración|2
+DESFILE|Procesión pública|2
+CIRCO|Show con acróbatas y animales|2
+MAGIA|Trucos que parecen imposibles|2
+CHISTE|Historia divertida|1
+RISA|Sonido de diversión|1
+DIVERSION|Actividad placentera|1
+JUGUETE|Objeto para jugar|1
+ROMPECABEZAS|Problema para resolver|2
+LIBRO|Entretenimiento escrito|1
+REVISTA|Publicación periódica|2
+COMIC|Historia ilustrada|2
+PASATIEMPO|Actividad hecha por placer|2

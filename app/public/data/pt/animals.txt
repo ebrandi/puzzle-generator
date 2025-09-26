@@ -1,0 +1,50 @@
+CACHORRO|Melhor amigo do homem|1
+GATO|Animal peludo que mia|1
+PASSARO|Animal com asas e penas|1
+PEIXE|Animal que vive na água|1
+CAVALO|Animal grande que pessoas montam|1
+VACA|Animal da fazenda que dá leite|1
+PORCO|Animal rosa da fazenda|1
+OVELHA|Animal lanoso da fazenda|1
+GALINHA|Ave que põe ovos|1
+PATO|Ave aquática com pés palmados|1
+COELHO|Animal pequeno que pula|1
+RATO|Pequeno roedor|1
+ELEFANTE|Maior animal terrestre|2
+LEAO|Rei da selva|1
+TIGRE|Grande felino listrado|2
+URSO|Animal grande e peludo|1
+LOBO|Cão selvagem que uiva|2
+RAPOSA|Animal esperto e vermelho|2
+VEADO|Animal com chifres|2
+MACACO|Primata que balança nas árvores|2
+GORILA|Grande primata|2
+ZEBRA|Cavalo com listras pretas e brancas|2
+GIRAFA|Animal mais alto com pescoço longo|2
+HIPOPOTAMO|Grande animal aquático|2
+RINOCERONTE|Animal com chifre no nariz|2
+CROCODILO|Grande réptil com dentes grandes|3
+COBRA|Animal longo sem pernas|2
+LAGARTO|Pequeno réptil|2
+TARTARUGA|Animal com casco|2
+SAPO|Anfíbio que pula|1
+BORBOLETA|Inseto colorido voador|2
+ABELHA|Inseto que faz mel|2
+FORMIGA|Inseto pequeno trabalhador|2
+ARANHA|Criatura de oito pernas|2
+BALEIA|Maior animal do oceano|2
+GOLFINHO|Mamífero inteligente do oceano|2
+TUBARAO|Peixe perigoso com dentes afiados|2
+POLVO|Animal marinho com oito braços|3
+CARANGUEJO|Animal marinho com garras|2
+PINGUIM|Ave preta e branca que não voa|2
+AGUIA|Grande ave de rapina|2
+CORUJA|Ave noturna com olhos grandes|2
+PAPAGAIO|Ave colorida que pode falar|2
+CANGURU|Animal saltador da Austrália|3
+COALA|Animal australiano que come eucalipto|3
+PANDA|Urso preto e branco da China|2
+CAMELO|Animal do deserto com corcovas|2
+LHAMA|Animal sul-americano como camelo|3
+PAVAO|Ave com cauda colorida bonita|3
+FLAMINGO|Ave rosa que fica numa perna só|3

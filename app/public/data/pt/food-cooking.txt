@@ -1,0 +1,50 @@
+COMIDA|O que comemos|1
+REFEICAO|Comida consumida de uma vez|1
+CAFE|Primeira refeição do dia|2
+ALMOCO|Refeição do meio-dia|1
+JANTAR|Refeição da noite|1
+LANCHE|Pequena quantidade de comida|2
+PAO|Comida assada feita de farinha|1
+ARROZ|Pequenos grãos brancos|1
+MACARRAO|Comida italiana feita de trigo|2
+PIZZA|Pão achatado com coberturas|2
+SOPA|Comida líquida|1
+SALADA|Vegetais misturados|2
+SANDUICHE|Comida entre fatias de pão|2
+CARNE|Carne animal para comer|1
+FRANGO|Carne de ave|1
+BOVINA|Carne de gado|2
+SUINA|Carne de porcos|2
+PEIXE|Frutos do mar|1
+OVO|Comida oval de aves|1
+LEITE|Líquido branco de vacas|1
+QUEIJO|Produto lácteo|2
+MANTEIGA|Pasta láctea amarela|2
+IOGURTE|Produto lácteo espesso|2
+FRUTA|Produto vegetal doce|1
+MACA|Fruta redonda vermelha ou verde|1
+BANANA|Fruta amarela curvada|1
+LARANJA|Fruta cítrica|1
+UVA|Fruta pequena redonda|1
+BAGA|Fruta pequena macia|2
+VEGETAL|Comida vegetal|2
+CENOURA|Vegetal raiz laranja|2
+BATATA|Vegetal subterrâneo|2
+TOMATE|Vegetal redondo vermelho|2
+CEBOLA|Vegetal bulbo em camadas|2
+ALFACE|Vegetal folhoso verde|2
+COZINHAR|Preparar comida com calor|2
+ASSAR|Cozinhar no forno|2
+FRITAR|Cozinhar em óleo quente|2
+FERVER|Cozinhar em água quente|2
+GRELHAR|Cozinhar sobre fogo|2
+RECEITA|Instruções para cozinhar|3
+INGREDIENTE|Item usado no cozimento|3
+TEMPERO|Condimento para sabor|2
+SAL|Condimento branco|1
+PIMENTA|Condimento preto|2
+ACUCAR|Cristais brancos doces|1
+FARINHA|Pó para assar|2
+OLEO|Gordura líquida para cozinhar|2
+COZINHA|Sala para cozinhar|2
+RESTAURANTE|Local para comprar refeições|2

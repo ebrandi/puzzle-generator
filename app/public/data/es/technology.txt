@@ -1,0 +1,50 @@
+COMPUTADORA|Dispositivo electrónico para procesar datos|2
+PORTATIL|Computadora portátil|2
+TABLETA|Dispositivo plano con pantalla táctil|2
+TELEFONO|Dispositivo para hablar con gente|1
+MOVIL|Teléfono con características de computadora|3
+INTERNET|Red global de computadoras|2
+SITIO|Colección de páginas web|2
+CORREO|Correo electrónico|2
+TECLADO|Dispositivo con teclas para escribir|2
+RATON|Dispositivo para apuntar y hacer clic|2
+PANTALLA|Superficie de visualización|1
+MONITOR|Pantalla de visualización de computadora|2
+IMPRESORA|Dispositivo que imprime en papel|2
+ESCANER|Dispositivo que copia imágenes|3
+CAMARA|Dispositivo para tomar fotos|2
+VIDEO|Imágenes en movimiento|1
+AUDIO|Grabación de sonido|2
+ALTAVOZ|Dispositivo que produce sonido|2
+MICROFONO|Dispositivo para grabar sonido|3
+AURICULARES|Dispositivo de escucha personal|2
+BATERIA|Dispositivo que almacena energía|2
+CARGADOR|Dispositivo que da energía|2
+CABLE|Alambre para conectar dispositivos|2
+INALAMBRICO|Sin cables|2
+BLUETOOTH|Conexión inalámbrica de corto alcance|3
+WIFI|Conexión de internet inalámbrica|2
+SOFTWARE|Programas de computadora|3
+HARDWARE|Partes físicas de computadora|3
+PROGRAMA|Conjunto de instrucciones de computadora|2
+APLICACION|Software de aplicación|2
+JUEGO|Software de entretenimiento|1
+DATOS|Información almacenada digitalmente|2
+ARCHIVO|Colección de datos|2
+CARPETA|Contenedor para archivos|2
+DESCARGAR|Obtener archivo de internet|2
+SUBIR|Enviar archivo a internet|2
+RESPALDO|Copia de datos importantes|3
+VIRUS|Programa dañino de computadora|3
+CONTRASENA|Código secreto para acceso|2
+USUARIO|Nombre para iniciar sesión|2
+ROBOT|Máquina automatizada|2
+ARTIFICIAL|Hecho por humanos no naturaleza|3
+INTELIGENCIA|Capacidad de pensar y aprender|3
+DIGITAL|Usando números y computadoras|2
+VIRTUAL|Existiendo en simulación de computadora|3
+NUBE|Almacenamiento basado en internet|3
+STREAMING|Reproducir medios de internet|3
+SOCIAL|Relacionado con interacción con otros|2
+RED|Grupo conectado de dispositivos|3
+PROGRAMACION|Escribir programas de computadora|3

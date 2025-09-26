@@ -1,0 +1,50 @@
+PERRO|Mejor amigo del hombre|1
+GATO|Animal peludo que maúlla|1
+PAJARO|Animal con alas y plumas|1
+PEZ|Animal que vive en agua|1
+CABALLO|Animal grande que la gente monta|1
+VACA|Animal de granja que da leche|1
+CERDO|Animal rosa de granja|1
+OVEJA|Animal lanudo de granja|1
+POLLO|Ave que pone huevos|1
+PATO|Ave acuática con pies palmeados|1
+CONEJO|Animal pequeño que salta|1
+RATON|Pequeño roedor|1
+ELEFANTE|Animal terrestre más grande|2
+LEON|Rey de la selva|1
+TIGRE|Gran felino rayado|2
+OSO|Animal grande y peludo|1
+LOBO|Perro salvaje que aúlla|2
+ZORRO|Animal astuto y rojo|2
+CIERVO|Animal con cuernos|2
+MONO|Primate que se balancea en árboles|2
+GORILA|Gran simio|2
+CEBRA|Caballo con rayas negras y blancas|2
+JIRAFA|Animal más alto con cuello largo|2
+HIPOPOTAMO|Gran animal acuático|2
+RINOCERONTE|Animal con cuerno en nariz|2
+COCODRILO|Gran reptil con dientes grandes|3
+SERPIENTE|Animal largo sin patas|2
+LAGARTO|Pequeño reptil|2
+TORTUGA|Animal con caparazón|2
+RANA|Anfibio que salta|1
+MARIPOSA|Insecto colorido volador|2
+ABEJA|Insecto que hace miel|2
+HORMIGA|Insecto pequeño trabajador|2
+ARANA|Criatura de ocho patas|2
+BALLENA|Animal más grande del océano|2
+DELFIN|Mamífero inteligente del océano|2
+TIBURON|Pez peligroso con dientes afilados|2
+PULPO|Animal marino con ocho brazos|3
+CANGREJO|Animal marino con pinzas|2
+PINGUINO|Ave negra y blanca que no vuela|2
+AGUILA|Gran ave de presa|2
+BUHO|Ave nocturna con ojos grandes|2
+LORO|Ave colorida que puede hablar|2
+CANGURO|Animal saltador de Australia|3
+KOALA|Animal australiano que come eucalipto|3
+PANDA|Oso negro y blanco de China|2
+CAMELLO|Animal del desierto con jorobas|2
+LLAMA|Animal sudamericano como camelo|3
+PAVO|Ave con cola colorida hermosa|3
+FLAMENCO|Ave rosa que se para en una pata|3

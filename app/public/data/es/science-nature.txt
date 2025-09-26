@@ -1,0 +1,50 @@
+ATOMO|Unidad más pequeña de materia|3
+MOLECULA|Grupo de átomos unidos|3
+OXIGENO|Gas que respiramos|2
+CARBONO|Elemento en todos los seres vivos|2
+HIDROGENO|Elemento químico más ligero|3
+GRAVEDAD|Fuerza que tira objetos hacia abajo|2
+ENERGIA|Poder para hacer trabajo|2
+FUERZA|Empuje o tirón en objeto|2
+MOVIMIENTO|Cambio de posición|2
+VELOCIDAD|Qué tan rápido se mueve algo|1
+LUZ|Radiación electromagnética que vemos|2
+SONIDO|Vibraciones que oímos|2
+CALOR|Forma de energía del calentamiento|1
+FRIO|Ausencia de calor|1
+HIELO|Agua congelada|1
+VAPOR|Vapor de agua|2
+GAS|Estado de materia como aire|2
+LIQUIDO|Estado de materia como agua|2
+SOLIDO|Estado duro de materia|2
+CRISTAL|Sólido con patrón regular|3
+IMAN|Objeto que atrae metal|2
+ELECTRICO|Relacionado con electricidad|2
+BATERIA|Dispositivo que almacena energía|2
+CIRCUITO|Camino para corriente eléctrica|3
+TELESCOPIO|Instrumento para ver objetos lejanos|3
+MICROSCOPIO|Instrumento para ver cosas pequeñas|3
+LENTE|Vidrio curvo que dobla luz|3
+PRISMA|Vidrio que divide luz blanca|3
+ESPECTRO|Rango de colores en luz|3
+FOTON|Partícula de luz|3
+ELECTRON|Partícula con carga negativa|3
+PROTON|Partícula con carga positiva|3
+NEUTRON|Partícula neutra en núcleo|3
+NUCLEO|Centro de un átomo|3
+CELULA|Unidad básica de vida|2
+ADN|Material genético|3
+GEN|Unidad de herencia|3
+PROTEINA|Molécula grande en seres vivos|3
+ENZIMA|Proteína que acelera reacciones|3
+VIRUS|Agente infeccioso pequeño|3
+BACTERIA|Microorganismos unicelulares|3
+HONGO|Organismo como hongos|3
+ALGA|Plantas acuáticas simples|3
+FOSIL|Restos de vida antigua|2
+EVOLUCION|Cambio en especies a través del tiempo|3
+ECOSISTEMA|Comunidad de seres vivos|3
+HABITAT|Hogar natural del organismo|2
+ESPECIE|Grupo de organismos similares|3
+EXTINTO|Ya no existe|2
+PELIGRO|En riesgo de extinción|3

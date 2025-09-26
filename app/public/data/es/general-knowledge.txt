@@ -1,0 +1,50 @@
+TIERRA|Tercer planeta del Sol|1
+AGUA|Líquido esencial para la vida|1
+FUEGO|Llama caliente que quema|1
+LUNA|Satélite natural de la Tierra|1
+SOL|Estrella en el centro del sistema solar|1
+ARCOIRIS|Arco colorido en el cielo después de lluvia|2
+OCEANO|Gran cuerpo de agua salada|1
+MONTANA|Elevación natural alta|2
+DESIERTO|Región seca y arenosa|2
+BOSQUE|Área con muchos árboles|1
+RIO|Cuerpo de agua corriente|1
+NUBE|Masa blanca esponjosa en el cielo|1
+VIENTO|Aire en movimiento|1
+NIEVE|Precipitación blanca congelada|1
+LLUVIA|Agua cayendo de las nubes|1
+TRUENO|Sonido después del rayo|2
+RAYO|Flash eléctrico en tormenta|2
+ESTACION|Cuarto del año|2
+INVIERNO|Estación más fría|1
+VERANO|Estación más caliente|1
+PRIMAVERA|Estación del crecimiento|1
+OTONO|Estación de caída|2
+CALENDARIO|Sistema para organizar días|2
+RELOJ|Dispositivo que muestra tiempo|1
+MINUTO|Sesenta segundos|1
+HORA|Sesenta minutos|1
+DIA|Veinticuatro horas|1
+SEMANA|Siete días|1
+MES|Parte de un año|1
+ANO|Doce meses|1
+SIGLO|Cien años|2
+DECADA|Diez años|2
+BRUJULA|Instrumento de navegación|2
+NORTE|Dirección hacia el Ártico|1
+SUR|Dirección hacia la Antártida|1
+ESTE|Dirección del amanecer|1
+OESTE|Dirección del atardecer|1
+GLOBO|Modelo de la Tierra|2
+MAPA|Dibujo de un área|1
+PAIS|Nación o territorio|1
+CIUDAD|Villa grande|1
+PUEBLO|Comunidad pequeña|2
+CAPITAL|Ciudad principal del país|2
+BANDERA|Símbolo nacional en tela|1
+IDIOMA|Sistema de comunicación|2
+ALFABETO|Conjunto de letras|2
+NUMERO|Símbolo matemático|1
+CERO|Nada o vacío|1
+MILLON|Mil millares|3
+BILLON|Mil millones|3

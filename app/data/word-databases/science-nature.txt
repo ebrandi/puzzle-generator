@@ -1,0 +1,56 @@
+
+# Science & Nature Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+WATER|H2O, essential for life|1
+FIRE|Hot, bright flame|1
+AIR|Gas mixture we breathe|1
+PLANT|Living organism that makes food from sunlight|1
+ANIMAL|Living creature that moves and eats|1
+BIRD|Flying animal with feathers|1
+FISH|Water-dwelling animal with gills|1
+TREE|Large woody plant|1
+FLOWER|Colorful part of a plant|1
+SEED|Part of plant that grows into new plant|1
+LEAF|Green part of plant that makes food|1
+ROOT|Part of plant that grows underground|1
+SUN|Star that gives Earth light and heat|1
+MOON|Natural satellite of Earth|1
+STAR|Bright object in the night sky|1
+CLOUD|White or gray mass in the sky|1
+RAIN|Water falling from clouds|1
+SNOW|Frozen precipitation|1
+ICE|Frozen water|1
+WIND|Moving air|1
+ATOM|Smallest unit of matter|2
+MOLECULE|Group of atoms bonded together|2
+CELL|Basic unit of life|2
+DNA|Genetic material in living things|2
+GENE|Unit of heredity|2
+PROTEIN|Large molecule essential for life|2
+ENZYME|Protein that speeds up reactions|2
+BACTERIA|Tiny single-celled organisms|2
+VIRUS|Infectious agent smaller than bacteria|2
+FOSSIL|Remains of ancient life preserved in rock|2
+EVOLUTION|Process of change in living things over time|2
+ECOSYSTEM|Community of living things and environment|2
+HABITAT|Natural home of an organism|2
+SPECIES|Group of similar organisms that can reproduce|2
+GRAVITY|Force that pulls objects toward each other|2
+ENERGY|Ability to do work|2
+FORCE|Push or pull on an object|2
+MOTION|Movement of an object|2
+HEAT|Form of energy from molecular movement|2
+LIGHT|Form of electromagnetic radiation|2
+SOUND|Vibrations traveling through air|2
+ELECTRICITY|Flow of electric charge|2
+MAGNETISM|Force of attraction or repulsion|2
+PHOTOSYNTHESIS|Process plants use to make food from sunlight|3
+MITOCHONDRIA|Powerhouse of the cell|3
+CHROMOSOME|Structure containing genes|3
+METABOLISM|Chemical processes in living organisms|3
+SYMBIOSIS|Close relationship between different species|3
+BIODIVERSITY|Variety of life in an ecosystem|3
+CONSERVATION|Protection of natural resources|3
+RENEWABLE|Energy source that can be replenished|3
+EXTINCTION|Complete disappearance of a species|3
+ADAPTATION|Change that helps organism survive|3

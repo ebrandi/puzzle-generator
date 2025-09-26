@@ -1,0 +1,50 @@
+CUERPO|Estructura física de persona|1
+CABEZA|Parte superior del cuerpo|1
+CARA|Frente de la cabeza|1
+OJO|Órgano para ver|1
+OIDO|Órgano para oír|1
+NARIZ|Órgano para oler|1
+BOCA|Abertura para comer y hablar|1
+DIENTE|Parte blanca dura en boca|1
+LENGUA|Músculo en boca para saborear|2
+CUELLO|Parte conectando cabeza a cuerpo|1
+BRAZO|Miembro superior del cuerpo|1
+MANO|Parte final del brazo|1
+DEDO|Dígito en mano|1
+PIERNA|Miembro inferior del cuerpo|1
+PIE|Parte final de pierna|1
+DEDO|Dígito en pie|1
+CORAZON|Órgano que bombea sangre|2
+PULMON|Órgano para respirar|2
+CEREBRO|Órgano para pensar|2
+ESTOMAGO|Órgano para digerir comida|2
+HIGADO|Órgano que limpia sangre|3
+RINON|Órgano que filtra desechos|3
+HUESO|Parte dura del esqueleto|2
+MUSCULO|Tejido que mueve cuerpo|2
+PIEL|Cubierta externa del cuerpo|1
+SANGRE|Líquido rojo en cuerpo|1
+RESPIRACION|Aire entrando y saliendo|1
+PULSO|Latido cardíaco que se siente|2
+SALUD|Estado de estar bien|2
+ENFERMO|No sintiéndose bien|1
+ENFERMEDAD|Dolencia o mal|2
+MEDICINA|Sustancia para tratar enfermedad|2
+DOCTOR|Persona que trata gente enferma|1
+ENFERMERA|Persona que cuida pacientes|2
+HOSPITAL|Lugar para tratar gente enferma|2
+CLINICA|Pequeña instalación médica|3
+PACIENTE|Persona recibiendo cuidado médico|2
+TRATAMIENTO|Cuidado médico para enfermedad|3
+CIRUGIA|Operación médica|3
+VENDAJE|Tela para cubrir heridas|2
+VACUNA|Medicina para prevenir enfermedad|3
+VITAMINA|Nutriente necesario para salud|3
+EJERCICIO|Actividad física para salud|2
+FORMA|Estar en buena forma física|2
+DIETA|Comida y bebida consumidas|2
+NUTRICION|Obtener nutrientes adecuados|3
+SUENO|Descanso con ojos cerrados|1
+HIGIENE|Mantenerse limpio para salud|3
+HERIDA|Daño al cuerpo|2
+DOLOR|Sensación desagradable en cuerpo|1

@@ -1,0 +1,65 @@
+
+# Animals Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+DOG|Common household pet that barks|1
+CAT|Feline pet that purrs|1
+BIRD|Flying animal with feathers|1
+FISH|Water-dwelling animal with gills|1
+HORSE|Large mammal used for riding|1
+COW|Farm animal that gives milk|1
+PIG|Farm animal that rolls in mud|1
+SHEEP|Woolly farm animal|1
+CHICKEN|Bird that lays eggs|1
+DUCK|Waterfowl with webbed feet|1
+RABBIT|Small mammal with long ears|1
+MOUSE|Small rodent|1
+FROG|Amphibian that hops|1
+SNAKE|Long reptile without legs|1
+TURTLE|Reptile with shell|1
+BEAR|Large mammal with thick fur|1
+LION|Large cat known as king of jungle|1
+TIGER|Striped big cat|1
+ELEPHANT|Largest land mammal with trunk|1
+MONKEY|Primate that swings in trees|1
+ZEBRA|Black and white striped horse-like animal|1
+GIRAFFE|Tallest animal with long neck|1
+PENGUIN|Black and white bird that can't fly|1
+WHALE|Largest mammal living in ocean|1
+DOLPHIN|Intelligent marine mammal|1
+SHARK|Large predatory fish|1
+SPIDER|Eight-legged creature|1
+BEE|Insect that makes honey|1
+BUTTERFLY|Colorful flying insect|1
+ANT|Small insect that works in colonies|1
+EAGLE|Large bird of prey|2
+HAWK|Bird of prey with sharp talons|2
+OWL|Nocturnal bird with large eyes|2
+DEER|Graceful forest mammal|2
+WOLF|Wild canine that hunts in packs|2
+FOX|Clever red-furred mammal|2
+SQUIRREL|Small mammal that gathers nuts|2
+RACCOON|Masked mammal with ringed tail|2
+SKUNK|Black and white mammal with strong odor|2
+BEAVER|Dam-building aquatic mammal|2
+OTTER|Playful aquatic mammal|2
+SEAL|Marine mammal with flippers|2
+WALRUS|Large marine mammal with tusks|2
+OCTOPUS|Eight-armed sea creature|2
+JELLYFISH|Transparent marine animal|2
+STARFISH|Star-shaped sea creature|2
+CRAB|Crustacean with claws|2
+LOBSTER|Large marine crustacean|2
+SALAMANDER|Amphibian resembling a lizard|2
+IGUANA|Large tropical lizard|2
+CROCODILE|Large reptilian predator|2
+ALLIGATOR|Large reptile similar to crocodile|2
+KANGAROO|Jumping marsupial from Australia|3
+KOALA|Tree-dwelling Australian marsupial|3
+PLATYPUS|Unusual egg-laying mammal|3
+RHINOCEROS|Large mammal with horn on nose|3
+HIPPOPOTAMUS|Large African river mammal|3
+CHIMPANZEE|Intelligent ape closely related to humans|3
+ORANGUTAN|Red-haired ape from Asia|3
+GORILLA|Largest primate|3
+CHEETAH|Fastest land animal|3
+LEOPARD|Spotted big cat|3

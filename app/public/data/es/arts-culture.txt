@@ -1,0 +1,50 @@
+ARTE|Expresión visual creativa|1
+PINTURA|Arte hecho con pintura|2
+DIBUJO|Arte hecho con lápiz o pluma|2
+ESCULTURA|Arte tridimensional|3
+MUSICA|Sonidos organizados|1
+CANCION|Composición musical con palabras|1
+DANZA|Moverse al ritmo|1
+TEATRO|Arte de actuación en vivo|2
+PELICULA|Película de cine|1
+CINE|Imágenes en movimiento en pantalla|2
+ACTOR|Persona que actúa en obras|2
+ACTRIZ|Artista femenina en obras|2
+DIRECTOR|Persona que guía la producción de películas|3
+MUSICO|Persona que toca música|2
+CANTANTE|Persona que canta|1
+ARTISTA|Persona que crea arte|2
+PINTOR|Persona que pinta|2
+ESCULTOR|Persona que hace esculturas|3
+BAILARIN|Persona que baila|2
+PIANO|Instrumento musical de teclado|2
+GUITARRA|Instrumento musical de cuerdas|2
+VIOLIN|Pequeño instrumento de cuerdas|2
+TAMBOR|Instrumento de percusión|1
+FLAUTA|Instrumento de viento|2
+TROMPETA|Instrumento musical de metal|2
+ORQUESTA|Gran grupo de músicos|3
+BANDA|Grupo de músicos|2
+CORO|Grupo de cantantes|2
+CONCIERTO|Actuación musical|2
+OPERA|Drama musical|3
+BALLET|Forma de danza clásica|3
+MUSEO|Lugar exhibiendo arte y artefactos|2
+GALERIA|Lugar mostrando obras de arte|3
+EXPOSICION|Exhibición pública de arte|3
+LIENZO|Superficie de tela para pintar|3
+PINCEL|Herramienta para pintar|2
+PALETA|Tabla para mezclar colores|3
+COLOR|Propiedad visual de luz|1
+ROJO|Color primario|1
+AZUL|Color primario|1
+AMARILLO|Color primario|1
+VERDE|Color secundario|1
+MORADO|Color secundario|1
+NARANJA|Color secundario|1
+NEGRO|Ausencia de color|1
+BLANCO|Todos los colores combinados|1
+CULTURA|Forma de vida de la gente|2
+TRADICION|Costumbre pasada adelante|3
+FESTIVAL|Celebración o fiesta|2
+DISFRAZ|Ropa especial para actuación|3

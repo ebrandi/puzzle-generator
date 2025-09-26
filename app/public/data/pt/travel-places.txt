@@ -1,0 +1,50 @@
+VIAGEM|Ir de um lugar para outro|2
+PASSEIO|Jornada para um lugar|1
+JORNADA|Viagem longa|2
+FERIAS|Tempo longe do trabalho|2
+FERIADO|Dia especial ou folga|2
+TURISTA|Pessoa visitando lugares|2
+GUIA|Pessoa que mostra lugares|2
+MAPA|Desenho mostrando lugares|1
+BUSSOLA|Ferramenta mostrando direção|2
+BAGAGEM|Bolsas para viajar|2
+MALA|Caixa para roupas ao viajar|2
+PASSAPORTE|Documento para viagem internacional|3
+BILHETE|Papel permitindo viagem|2
+AVIAO|Veículo voador|2
+AEROPORTO|Local para aviões|2
+TREM|Veículo sobre trilhos|1
+ESTACAO|Local para trens|2
+ONIBUS|Veículo grande para passageiros|1
+CARRO|Veículo pessoal|1
+NAVIO|Barco grande|1
+BARCO|Veículo aquático|1
+HOTEL|Local para ficar durante a noite|2
+MOTEL|Hotel à beira da estrada|3
+RESORT|Local de férias com atividades|3
+CAMPING|Dormir ao ar livre|2
+BARRACA|Abrigo portátil|2
+PRAIA|Área arenosa perto da água|1
+OCEANO|Grande corpo de água salgada|1
+LAGO|Grande corpo de água doce|1
+MONTANHA|Formação terrestre alta|1
+FLORESTA|Área com muitas árvores|1
+DESERTO|Área seca e arenosa|2
+CIDADE|Grande vila|1
+VILA|Cidade pequena|1
+ALDEIA|Vila muito pequena|2
+PAIS|Nação|1
+CONTINENTE|Grande área terrestre|2
+ILHA|Terra cercada por água|2
+PONTE|Estrutura sobre água|2
+ESTRADA|Caminho para veículos|1
+RUA|Estrada na cidade|1
+AVENIDA|Rua larga|2
+PARQUE|Área verde para recreação|1
+MUSEU|Local com objetos históricos|2
+MONUMENTO|Estrutura construída para lembrar|3
+CASTELO|Grande edifício antigo fortificado|2
+PALACIO|Grande edifício elegante|2
+TEMPLO|Edifício religioso|2
+IGREJA|Local de culto cristão|2
+MERCADO|Local para comprar coisas|2

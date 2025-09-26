@@ -1,0 +1,48 @@
+FUTEBOL|Esporte jogado com os pés|1
+BASQUETE|Esporte com cestas e bola quicando|2
+VOLEI|Esporte de rede com bola batendo|2
+TENIS|Esporte de raquete com rede|2
+GOLFE|Esporte com tacos e bola pequena|2
+NATACAO|Mover-se através da água|1
+CORRIDA|Mover-se rápido a pé|1
+SALTO|Pular no ar|1
+CICLISMO|Andar de bicicleta|2
+ESQUI|Deslizar na neve com esquis|2
+PATINACAO|Mover-se no gelo ou rodas|2
+BOXE|Esporte de luta com luvas|2
+LUTA|Esporte de combate corpo a corpo|2
+GINASTICA|Esporte com saltos e equilíbrio|3
+HANDEBOL|Esporte com bola e mãos|2
+HOCKEY|Esporte com bastões e disco|2
+RUGBY|Esporte de contato com bola oval|3
+BADMINTON|Esporte de raquete com peteca|3
+TIRO|Esporte com arco e flechas|3
+ESGRIMA|Esporte de luta com espadas|3
+JUDO|Arte marcial japonesa|3
+KARATE|Arte marcial com chutes e socos|3
+SURF|Andar nas ondas em prancha|2
+VELA|Mover barco com vento|2
+REMO|Mover barco com remos|2
+MERGULHO|Pular na água|2
+ESCALADA|Subir montanhas ou paredes|2
+CAMINHADA|Andar na natureza|2
+MARATONA|Corrida de longa distância|3
+VELOCIDADE|Corrida rápida e curta|2
+REVEZAMENTO|Corrida de equipe passando bastão|3
+BARREIRAS|Corrida com obstáculos para pular|3
+DARDO|Arremesso de objeto como lança|3
+DISCO|Arremesso de disco pesado|3
+PESO|Arremesso de bola pesada|3
+VARA|Bastão longo usado no salto|2
+SALTO|Pular sobre barra alta|3
+EQUIPE|Grupo jogando junto|1
+JOGADOR|Pessoa no jogo|1
+TECNICO|Pessoa que treina atletas|2
+ARBITRO|Oficial que aplica regras|3
+PONTOS|Pontos ganhos no jogo|1
+GANHAR|Ser vitorioso|1
+PERDER|Ser derrotado|1
+CAMPEAO|Vencedor da competição|2
+TROFEU|Prêmio por vencer|2
+MEDALHA|Prêmio por conquista|2
+OLIMPIADAS|Competição esportiva internacional|3

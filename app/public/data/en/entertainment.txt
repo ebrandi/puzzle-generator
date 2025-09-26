@@ -1,0 +1,50 @@
+MOVIE|Film shown in theater|1
+FILM|Motion picture|2
+CINEMA|Place to watch movies|2
+THEATER|Building for performances|2
+ACTOR|Person in movies or plays|2
+ACTRESS|Female performer|2
+DIRECTOR|Person who makes movies|3
+STAR|Famous performer|2
+CELEBRITY|Famous person|3
+TELEVISION|Device for watching shows|2
+SHOW|Entertainment program|1
+SERIES|Connected episodes|2
+EPISODE|Single part of series|3
+CHANNEL|TV station|2
+NEWS|Current events program|2
+CARTOON|Animated show|2
+COMEDY|Funny entertainment|2
+DRAMA|Serious entertainment|2
+ACTION|Exciting adventure genre|2
+HORROR|Scary entertainment|2
+ROMANCE|Love story genre|2
+MUSIC|Organized sounds|1
+SONG|Musical piece with words|1
+ALBUM|Collection of songs|2
+SINGER|Person who sings|1
+BAND|Group of musicians|2
+CONCERT|Live musical performance|2
+RADIO|Device for hearing broadcasts|2
+GAME|Activity for fun|1
+SPORT|Physical competition|1
+TEAM|Group playing together|1
+PLAYER|Person in game|1
+MATCH|Competition between teams|2
+WINNER|Person who comes first|1
+CHAMPION|Best player or team|2
+PARTY|Social gathering|1
+DANCE|Moving to music|1
+FESTIVAL|Celebration event|2
+PARADE|Public procession|2
+CIRCUS|Show with acrobats and animals|2
+MAGIC|Tricks that seem impossible|2
+JOKE|Funny story|1
+LAUGH|Sound of amusement|1
+FUN|Enjoyable activity|1
+TOY|Object for playing|1
+PUZZLE|Problem to solve|2
+BOOK|Written entertainment|1
+MAGAZINE|Periodical publication|2
+COMIC|Illustrated story|2
+HOBBY|Activity done for pleasure|2

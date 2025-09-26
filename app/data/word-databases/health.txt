@@ -1,0 +1,82 @@
+
+# Health Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+HEALTH|State of physical and mental well-being|1
+DOCTOR|Medical professional who treats patients|1
+NURSE|Healthcare worker who cares for patients|1
+HOSPITAL|Place where sick people receive treatment|1
+MEDICINE|Substance used to treat illness|1
+PILL|Small round medicine to swallow|1
+SHOT|Injection of medicine|1
+BANDAGE|Strip of cloth for covering wounds|1
+HEART|Organ that pumps blood|1
+BRAIN|Organ that controls thinking|1
+LUNG|Organ used for breathing|1
+STOMACH|Organ that digests food|1
+BONE|Hard part of skeleton|1
+MUSCLE|Tissue that contracts to cause movement|1
+BLOOD|Red liquid that flows through body|1
+SKIN|Outer covering of the body|1
+EYE|Organ used for seeing|1
+EAR|Organ used for hearing|1
+NOSE|Organ used for smelling|1
+MOUTH|Opening used for eating and speaking|1
+TOOTH|Hard structure in mouth for chewing|1
+HAND|Part at end of arm|1
+FOOT|Part at end of leg|1
+ARM|Upper limb of body|1
+LEG|Lower limb of body|1
+HEAD|Upper part of body containing brain|1
+NECK|Part connecting head to body|1
+BACK|Rear part of torso|1
+CHEST|Front part of torso|1
+EXERCISE|Physical activity for fitness|1
+SLEEP|Rest with closed eyes|1
+EAT|To consume food|1
+DRINK|To consume liquids|1
+WATER|Clear liquid essential for life|1
+FOOD|Substance eaten for nourishment|1
+FRUIT|Sweet plant product|1
+VEGETABLE|Plant grown for food|1
+VITAMIN|Nutrient needed for good health|1
+PROTEIN|Nutrient that builds muscles|1
+CALCIUM|Mineral needed for strong bones|1
+FEVER|High body temperature when sick|2
+HEADACHE|Pain in the head|2
+COLD|Common illness with sneezing|2
+COUGH|Sudden expulsion of air from lungs|2
+SNEEZE|Sudden expulsion of air from nose|2
+INFECTION|Invasion of harmful microorganisms|2
+BACTERIA|Tiny organisms that can cause disease|2
+VIRUS|Microscopic infectious agent|2
+ALLERGY|Reaction to normally harmless substance|2
+ASTHMA|Condition affecting breathing|2
+DIABETES|Disease affecting blood sugar|2
+HYPERTENSION|High blood pressure|2
+VACCINATION|Shot to prevent disease|2
+ANTIBIOTIC|Medicine that fights bacteria|2
+SURGERY|Medical operation|2
+ANESTHESIA|Medicine that prevents pain during surgery|2
+DIAGNOSIS|Identification of disease or condition|2
+TREATMENT|Medical care to cure illness|2
+THERAPY|Treatment to improve health|2
+REHABILITATION|Process of recovery after injury|2
+NUTRITION|Science of food and health|2
+HYGIENE|Practices for maintaining cleanliness|2
+STRESS|Mental or physical tension|2
+MENTAL|Related to the mind|2
+WELLNESS|State of good health|2
+FITNESS|Physical condition and health|2
+IMMUNITY|Body's defense against disease|2
+METABOLISM|Chemical processes in the body|2
+CIRCULATION|Movement of blood through body|2
+RESPIRATORY|Related to breathing|3
+CARDIOVASCULAR|Related to heart and blood vessels|3
+NEUROLOGICAL|Related to nervous system|3
+DERMATOLOGY|Study of skin conditions|3
+ORTHOPEDICS|Treatment of bone and muscle problems|3
+PEDIATRICS|Medical care of children|3
+GERIATRICS|Medical care of elderly|3
+PSYCHIATRY|Treatment of mental disorders|3
+PSYCHOLOGY|Study of mind and behavior|3
+PHYSIOTHERAPY|Treatment using physical methods|3

@@ -1,0 +1,50 @@
+BODY|Physical structure of person|1
+HEAD|Top part of body|1
+FACE|Front of head|1
+EYE|Organ for seeing|1
+EAR|Organ for hearing|1
+NOSE|Organ for smelling|1
+MOUTH|Opening for eating and speaking|1
+TOOTH|Hard white part in mouth|1
+TONGUE|Muscle in mouth for tasting|2
+NECK|Part connecting head to body|1
+ARM|Upper limb of body|1
+HAND|End part of arm|1
+FINGER|Digit on hand|1
+LEG|Lower limb of body|1
+FOOT|End part of leg|1
+TOE|Digit on foot|1
+HEART|Organ that pumps blood|2
+LUNG|Organ for breathing|2
+BRAIN|Organ for thinking|2
+STOMACH|Organ for digesting food|2
+LIVER|Organ that cleans blood|3
+KIDNEY|Organ that filters waste|3
+BONE|Hard part of skeleton|2
+MUSCLE|Tissue that moves body|2
+SKIN|Outer covering of body|1
+BLOOD|Red liquid in body|1
+BREATH|Air going in and out|1
+PULSE|Heartbeat you can feel|2
+HEALTH|State of being well|2
+SICK|Not feeling well|1
+DISEASE|Illness or sickness|2
+MEDICINE|Substance to treat illness|2
+DOCTOR|Person who treats sick people|1
+NURSE|Person who cares for patients|2
+HOSPITAL|Place for treating sick people|2
+CLINIC|Small medical facility|3
+PATIENT|Person receiving medical care|2
+TREATMENT|Medical care for illness|3
+SURGERY|Medical operation|3
+BANDAGE|Cloth for covering wounds|2
+VACCINE|Medicine to prevent disease|3
+VITAMIN|Nutrient needed for health|3
+EXERCISE|Physical activity for health|2
+FITNESS|Being in good physical shape|2
+DIET|Food and drink consumed|2
+NUTRITION|Getting proper nutrients|3
+SLEEP|Rest with closed eyes|1
+HYGIENE|Keeping clean for health|3
+INJURY|Harm to body|2
+PAIN|Unpleasant feeling in body|1

@@ -1,0 +1,65 @@
+
+# Mathematics Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+NUMBER|Mathematical symbol for quantity|1
+COUNT|To determine quantity by numbering|1
+ADD|To combine numbers to get sum|1
+MINUS|To subtract or take away|1
+PLUS|To add together|1
+EQUAL|Having the same value|1
+SUM|Result of addition|1
+ZERO|Number representing nothing|1
+ONE|Number after zero|1
+TWO|Number after one|1
+THREE|Number after two|1
+FOUR|Number after three|1
+FIVE|Number after four|1
+TEN|Number with one and zero|1
+DOZEN|Twelve of something|1
+HALF|One of two equal parts|1
+QUARTER|One of four equal parts|1
+WHOLE|Complete or entire amount|1
+PART|Piece of a whole|1
+SIZE|How big something is|1
+LONG|Having great length|1
+SHORT|Having little length|1
+WIDE|Having great width|1
+NARROW|Having little width|1
+MULTIPLY|To increase by repeated addition|2
+DIVIDE|To separate into equal parts|2
+FRACTION|Part of a whole number|2
+DECIMAL|Number with a decimal point|2
+PERCENT|Parts per hundred|2
+AVERAGE|Typical or middle value|2
+ROUND|To make a number simpler|2
+ESTIMATE|To make a reasonable guess|2
+MEASURE|To find size or amount|2
+LENGTH|Distance from end to end|2
+WIDTH|Distance from side to side|2
+HEIGHT|Distance from bottom to top|2
+AREA|Amount of surface space|2
+VOLUME|Amount of space inside|2
+CIRCLE|Round shape|2
+SQUARE|Shape with four equal sides|2
+TRIANGLE|Shape with three sides|2
+RECTANGLE|Shape with four sides and right angles|2
+ANGLE|Space between two intersecting lines|2
+LINE|Straight path extending infinitely|2
+POINT|Exact location in space|2
+GRAPH|Visual display of data|2
+CHART|Diagram showing information|2
+PATTERN|Repeated design or sequence|2
+SEQUENCE|Ordered list of numbers|2
+EQUATION|Mathematical statement of equality|3
+ALGEBRA|Branch using letters for unknown numbers|3
+GEOMETRY|Study of shapes and space|3
+CALCULUS|Advanced mathematics with rates of change|3
+PROBABILITY|Likelihood of an event occurring|3
+STATISTICS|Study of data collection and analysis|3
+SYMMETRY|Balanced proportions|3
+PARALLEL|Lines that never intersect|3
+PERPENDICULAR|Lines that meet at right angles|3
+DIAGONAL|Line connecting opposite corners|3
+CIRCUMFERENCE|Distance around a circle|3
+DIAMETER|Distance across circle through center|3
+RADIUS|Distance from center to edge of circle|3

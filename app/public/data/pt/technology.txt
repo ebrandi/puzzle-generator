@@ -1,0 +1,50 @@
+COMPUTADOR|Dispositivo eletrônico para processar dados|2
+LAPTOP|Computador portátil|2
+TABLET|Dispositivo plano com tela sensível|2
+TELEFONE|Dispositivo para falar com pessoas|1
+CELULAR|Telefone com recursos de computador|3
+INTERNET|Rede global de computadores|2
+SITE|Coleção de páginas web|2
+EMAIL|Correio eletrônico|2
+TECLADO|Dispositivo com teclas para digitar|2
+MOUSE|Dispositivo para apontar e clicar|2
+TELA|Superfície de exibição|1
+MONITOR|Tela de exibição do computador|2
+IMPRESSORA|Dispositivo que imprime no papel|2
+SCANNER|Dispositivo que copia imagens|3
+CAMERA|Dispositivo para tirar fotos|2
+VIDEO|Imagens em movimento|1
+AUDIO|Gravação de som|2
+ALTOFALANTE|Dispositivo que produz som|2
+MICROFONE|Dispositivo para gravar som|3
+FONE|Dispositivo de escuta pessoal|2
+BATERIA|Dispositivo que armazena energia|2
+CARREGADOR|Dispositivo que fornece energia|2
+CABO|Fio para conectar dispositivos|2
+SEMFIO|Sem fios|2
+BLUETOOTH|Conexão sem fio de curta distância|3
+WIFI|Conexão de internet sem fio|2
+SOFTWARE|Programas de computador|3
+HARDWARE|Partes físicas do computador|3
+PROGRAMA|Conjunto de instruções do computador|2
+APLICATIVO|Software de aplicação|2
+JOGO|Software de entretenimento|1
+DADOS|Informação armazenada digitalmente|2
+ARQUIVO|Coleção de dados|2
+PASTA|Recipiente para arquivos|2
+BAIXAR|Obter arquivo da internet|2
+ENVIAR|Mandar arquivo para internet|2
+BACKUP|Cópia de dados importantes|3
+VIRUS|Programa prejudicial do computador|3
+SENHA|Código secreto para acesso|2
+USUARIO|Nome para fazer login|2
+ROBO|Máquina automatizada|2
+ARTIFICIAL|Feito por humanos não natureza|3
+INTELIGENCIA|Capacidade de pensar e aprender|3
+DIGITAL|Usando números e computadores|2
+VIRTUAL|Existindo em simulação de computador|3
+NUVEM|Armazenamento baseado na internet|3
+STREAMING|Reproduzir mídia da internet|3
+SOCIAL|Relacionado à interação com outros|2
+REDE|Grupo conectado de dispositivos|3
+PROGRAMACAO|Escrever programas de computador|3

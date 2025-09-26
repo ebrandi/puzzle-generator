@@ -1,0 +1,50 @@
+FILME|Filme exibido no cinema|1
+CINEMA|Imagem em movimento|2
+TEATRO|Local para assistir filmes|2
+PALCO|Edifício para performances|2
+ATOR|Pessoa em filmes ou peças|2
+ATRIZ|Artista feminina|2
+DIRETOR|Pessoa que faz filmes|3
+ESTRELA|Artista famoso|2
+CELEBRIDADE|Pessoa famosa|3
+TELEVISAO|Dispositivo para assistir programas|2
+PROGRAMA|Programa de entretenimento|1
+SERIE|Episódios conectados|2
+EPISODIO|Parte única da série|3
+CANAL|Estação de TV|2
+NOTICIAS|Programa de eventos atuais|2
+DESENHO|Programa animado|2
+COMEDIA|Entretenimento engraçado|2
+DRAMA|Entretenimento sério|2
+ACAO|Gênero de aventura emocionante|2
+TERROR|Entretenimento assustador|2
+ROMANCE|Gênero de história de amor|2
+MUSICA|Sons organizados|1
+CANCAO|Peça musical com palavras|1
+ALBUM|Coleção de canções|2
+CANTOR|Pessoa que canta|1
+BANDA|Grupo de músicos|2
+CONCERTO|Performance musical ao vivo|2
+RADIO|Dispositivo para ouvir transmissões|2
+JOGO|Atividade para diversão|1
+ESPORTE|Competição física|1
+EQUIPE|Grupo jogando junto|1
+JOGADOR|Pessoa no jogo|1
+PARTIDA|Competição entre equipes|2
+VENCEDOR|Pessoa que fica em primeiro|1
+CAMPEAO|Melhor jogador ou equipe|2
+FESTA|Reunião social|1
+DANCA|Mover-se com música|1
+FESTIVAL|Evento de celebração|2
+DESFILE|Procissão pública|2
+CIRCO|Show com acrobatas e animais|2
+MAGICA|Truques que parecem impossíveis|2
+PIADA|História engraçada|1
+RISADA|Som de diversão|1
+DIVERSAO|Atividade prazerosa|1
+BRINQUEDO|Objeto para brincar|1
+QUEBRA|Problema para resolver|2
+LIVRO|Entretenimento escrito|1
+REVISTA|Publicação periódica|2
+QUADRINHO|História ilustrada|2
+HOBBY|Atividade feita por prazer|2

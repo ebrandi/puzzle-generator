@@ -1,0 +1,50 @@
+SOCCER|Football played with feet|1
+FOOTBALL|American sport with oval ball|2
+BASKETBALL|Sport with hoops and bouncing ball|2
+BASEBALL|Sport with bat and diamond field|2
+TENNIS|Racket sport with net|2
+GOLF|Sport with clubs and small ball|2
+SWIMMING|Moving through water|1
+RUNNING|Moving fast on foot|1
+JUMPING|Leaping into air|1
+CYCLING|Riding a bicycle|2
+SKIING|Sliding on snow with skis|2
+SKATING|Moving on ice or wheels|2
+BOXING|Fighting sport with gloves|2
+WRESTLING|Grappling combat sport|2
+GYMNASTICS|Sport with flips and balance|3
+VOLLEYBALL|Net sport with hitting ball|2
+HOCKEY|Sport with sticks and puck|2
+CRICKET|Bat and ball sport|2
+RUGBY|Contact sport with oval ball|3
+BADMINTON|Racket sport with shuttlecock|3
+ARCHERY|Sport with bow and arrows|3
+FENCING|Sword fighting sport|3
+JUDO|Japanese martial art|3
+KARATE|Martial art with kicks and punches|3
+SURFING|Riding waves on board|2
+SAILING|Moving boat with wind|2
+ROWING|Moving boat with oars|2
+DIVING|Jumping into water|2
+CLIMBING|Going up mountains or walls|2
+HIKING|Walking in nature|2
+MARATHON|Long distance running race|3
+SPRINT|Short fast race|2
+RELAY|Team race with baton passing|3
+HURDLES|Race with barriers to jump|3
+JAVELIN|Throwing spear-like object|3
+DISCUS|Throwing heavy disc|3
+SHOTPUT|Throwing heavy ball|3
+POLE|Long stick used in vault|2
+VAULT|Jumping over high bar|3
+TEAM|Group playing together|1
+PLAYER|Person in game|1
+COACH|Person who trains athletes|2
+REFEREE|Official who enforces rules|3
+SCORE|Points earned in game|1
+WIN|Be victorious|1
+LOSE|Be defeated|1
+CHAMPION|Winner of competition|2
+TROPHY|Prize for winning|2
+MEDAL|Award for achievement|2
+OLYMPICS|International sports competition|3

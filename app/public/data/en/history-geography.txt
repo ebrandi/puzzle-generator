@@ -1,0 +1,50 @@
+ANCIENT|Very old or from long ago|2
+EMPIRE|Large territory under one ruler|3
+KINGDOM|Country ruled by king or queen|2
+CASTLE|Fortified building|2
+KNIGHT|Medieval warrior on horseback|2
+PYRAMID|Ancient Egyptian monument|2
+PHARAOH|Ancient Egyptian ruler|3
+MUMMY|Preserved ancient body|2
+VIKING|Norse seafaring warrior|2
+GLADIATOR|Roman arena fighter|3
+COLOSSEUM|Ancient Roman amphitheater|3
+SPARTA|Ancient Greek city-state|3
+ATHENS|Ancient Greek city|3
+DEMOCRACY|Government by the people|3
+REPUBLIC|Government without monarchy|3
+REVOLUTION|Sudden political change|3
+INDEPENDENCE|Freedom from control|3
+COLONY|Territory controlled by another|3
+EXPLORER|Person who discovers new places|2
+VOYAGE|Long journey by sea|2
+CONTINENT|Large landmass|2
+AFRICA|Second largest continent|1
+ASIA|Largest continent|1
+EUROPE|Continent with many countries|1
+AMERICA|Continent discovered by Columbus|2
+AUSTRALIA|Island continent|2
+ANTARCTICA|Frozen southern continent|3
+ARCTIC|Cold northern region|2
+EQUATOR|Imaginary line around Earth|3
+TROPICS|Hot regions near equator|3
+LATITUDE|Distance north or south|3
+LONGITUDE|Distance east or west|3
+ISLAND|Land surrounded by water|1
+PENINSULA|Land surrounded by water on three sides|3
+STRAIT|Narrow water passage|3
+CANAL|Man-made waterway|2
+VALLEY|Low area between hills|2
+PLATEAU|High flat area|3
+CANYON|Deep narrow valley|2
+VOLCANO|Mountain that erupts|2
+EARTHQUAKE|Ground shaking|2
+TSUNAMI|Giant ocean wave|3
+GLACIER|Slow-moving ice mass|3
+TUNDRA|Cold treeless region|3
+SAVANNA|Tropical grassland|3
+RAINFOREST|Dense tropical forest|2
+PRAIRIE|Large grassland|3
+OASIS|Water source in desert|3
+ARCHIPELAGO|Group of islands|3
+FJORD|Narrow inlet between cliffs|3

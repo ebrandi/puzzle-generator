@@ -1,0 +1,50 @@
+ANTIGO|Muito velho ou de muito tempo atrás|2
+IMPERIO|Grande território sob um governante|3
+REINO|País governado por rei ou rainha|2
+CASTELO|Edifício fortificado|2
+CAVALEIRO|Guerreiro medieval a cavalo|2
+PIRAMIDE|Monumento egípcio antigo|2
+FARAO|Governante egípcio antigo|3
+MUMIA|Corpo antigo preservado|2
+VIKING|Guerreiro marítimo nórdico|2
+GLADIADOR|Lutador de arena romana|3
+COLISEU|Anfiteatro romano antigo|3
+ESPARTA|Cidade-estado grega antiga|3
+ATENAS|Cidade grega antiga|3
+DEMOCRACIA|Governo pelo povo|3
+REPUBLICA|Governo sem monarquia|3
+REVOLUCAO|Mudança política súbita|3
+INDEPENDENCIA|Liberdade do controle|3
+COLONIA|Território controlado por outro|3
+EXPLORADOR|Pessoa que descobre novos lugares|2
+VIAGEM|Jornada longa por mar|2
+CONTINENTE|Grande massa de terra|2
+AFRICA|Segundo maior continente|1
+ASIA|Maior continente|1
+EUROPA|Continente com muitos países|1
+AMERICA|Continente descoberto por Colombo|2
+AUSTRALIA|Continente ilha|2
+ANTARTIDA|Continente sul congelado|3
+ARTICO|Região norte fria|2
+EQUADOR|Linha imaginária ao redor da Terra|3
+TROPICOS|Regiões quentes perto do equador|3
+LATITUDE|Distância norte ou sul|3
+LONGITUDE|Distância leste ou oeste|3
+ILHA|Terra cercada por água|1
+PENINSULA|Terra cercada por água em três lados|3
+ESTREITO|Passagem estreita de água|3
+CANAL|Via aquática feita pelo homem|2
+VALE|Área baixa entre colinas|2
+PLANALTO|Área alta e plana|3
+CANYON|Vale profundo e estreito|2
+VULCAO|Montanha que entra em erupção|2
+TERREMOTO|Tremor do solo|2
+TSUNAMI|Onda gigante do oceano|3
+GELEIRA|Massa de gelo que se move lentamente|3
+TUNDRA|Região fria sem árvores|3
+SAVANA|Pastagem tropical|3
+FLORESTA|Floresta tropical densa|2
+PRADARIA|Grande pastagem|3
+OASIS|Fonte de água no deserto|3
+ARQUIPELAGO|Grupo de ilhas|3
+FIORDE|Entrada estreita entre penhascos|3

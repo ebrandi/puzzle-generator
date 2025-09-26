@@ -1,0 +1,59 @@
+
+# History & Geography Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+AMERICA|Country in North America|1
+EUROPE|Continent with many countries|1
+ASIA|Largest continent|1
+AFRICA|Continent known for wildlife|1
+OCEAN|Large body of water|1
+RIVER|Flowing body of water|1
+LAKE|Body of water surrounded by land|1
+ISLAND|Land surrounded by water|1
+CITY|Large town with many people|1
+COUNTRY|Nation with its own government|1
+CAPITAL|Main city of a country or state|1
+MAP|Drawing showing locations|1
+NORTH|Direction toward the top of a map|1
+SOUTH|Direction toward the bottom of a map|1
+EAST|Direction toward the right on a map|1
+WEST|Direction toward the left on a map|1
+CASTLE|Fortified building from medieval times|1
+KING|Male ruler of a kingdom|1
+QUEEN|Female ruler of a kingdom|1
+PRINCE|Son of a king or queen|1
+PRINCESS|Daughter of a king or queen|1
+KNIGHT|Armored warrior on horseback|1
+EGYPT|Country famous for pyramids|2
+PYRAMID|Ancient triangular monument|2
+ROME|Ancient empire and Italian city|2
+GREECE|Country known for ancient democracy|2
+VIKING|Scandinavian seafaring warrior|2
+COLUMBUS|Explorer who reached Americas in 1492|2
+WASHINGTON|First President of the United States|2
+LINCOLN|President who ended slavery|2
+CONSTITUTION|Fundamental law of a nation|2
+REVOLUTION|Overthrow of government or major change|2
+WAR|Armed conflict between nations|2
+PEACE|Absence of war or conflict|2
+TREATY|Agreement between countries|2
+COLONY|Territory controlled by another country|2
+INDEPENDENCE|Freedom from outside control|2
+EMPIRE|Large territory under one ruler|2
+DEMOCRACY|Government by the people|2
+REPUBLIC|Government with elected representatives|2
+CONTINENT|Large landmass|2
+EQUATOR|Imaginary line around Earth's middle|2
+HEMISPHERE|Half of the Earth|2
+LATITUDE|Lines running east-west on maps|2
+LONGITUDE|Lines running north-south on maps|2
+CLIMATE|Weather patterns of a region|2
+PLATEAU|Flat elevated land|2
+VALLEY|Low area between hills or mountains|2
+PENINSULA|Land surrounded by water on three sides|2
+ARCHIPELAGO|Group of islands|3
+RENAISSANCE|Period of cultural rebirth in Europe|3
+REFORMATION|Religious movement in 16th century|3
+ENLIGHTENMENT|Age of reason and intellectual growth|3
+INDUSTRIAL|Revolution of machines and factories|3
+CIVILIZATION|Advanced human society|3
+MESOPOTAMIA|Ancient region between two rivers|3

@@ -1,0 +1,72 @@
+
+# Arts & Culture Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+ART|Creative expression through visual media|1
+MUSIC|Organized sounds creating melody and rhythm|1
+SONG|Musical composition with words|1
+DANCE|Rhythmic movement of the body|1
+PAINT|Colored liquid used for art|1
+BRUSH|Tool for applying paint|1
+DRAW|To create pictures with pencil or pen|1
+COLOR|Visual property of objects|1
+RED|Primary color of fire and blood|1
+BLUE|Primary color of sky and sea|1
+YELLOW|Primary color of the sun|1
+GREEN|Secondary color of grass|1
+PURPLE|Color made from red and blue|1
+ORANGE|Color made from red and yellow|1
+BLACK|Absence of color|1
+WHITE|Presence of all colors|1
+PICTURE|Visual representation or image|1
+MOVIE|Motion picture or film|1
+ACTOR|Person who performs in plays or films|1
+STAGE|Platform where performances take place|1
+PLAY|Theatrical performance|1
+STORY|Narrative or tale|1
+BOOK|Written work bound in pages|1
+POEM|Literary work in verse|1
+MUSEUM|Building displaying art and artifacts|1
+GALLERY|Space for displaying artwork|1
+THEATER|Building for dramatic performances|1
+CONCERT|Musical performance|1
+BAND|Group of musicians|1
+SINGER|Person who performs vocal music|1
+PIANO|Large keyboard musical instrument|2
+GUITAR|Stringed musical instrument|2
+VIOLIN|Small stringed instrument played with bow|2
+TRUMPET|Brass wind instrument|2
+DRUMS|Percussion instruments|2
+FLUTE|Woodwind instrument|2
+ORCHESTRA|Large group of musicians|2
+CONDUCTOR|Person who directs musical performance|2
+COMPOSER|Person who writes music|2
+ARTIST|Person who creates art|2
+SCULPTOR|Artist who works with three-dimensional forms|2
+PAINTING|Artwork created with paint|2
+DRAWING|Artwork created with pencils or pens|2
+SCULPTURE|Three-dimensional artwork|2
+POTTERY|Art of making objects from clay|2
+PHOTOGRAPHY|Art of taking pictures|2
+CANVAS|Surface for painting|2
+SKETCH|Quick, rough drawing|2
+PORTRAIT|Artwork depicting a person|2
+LANDSCAPE|Artwork depicting natural scenery|2
+ABSTRACT|Art not representing realistic objects|2
+REALISTIC|Art that looks like real life|2
+STYLE|Distinctive artistic manner|2
+TECHNIQUE|Method or skill in art|2
+MASTERPIECE|Outstanding work of art|2
+EXHIBITION|Public display of artworks|2
+FESTIVAL|Celebration of arts or culture|2
+TRADITION|Long-established cultural practice|2
+HERITAGE|Cultural legacy passed down|2
+CLASSICAL|Traditional style, especially in music|3
+CONTEMPORARY|Modern or current artistic style|3
+RENAISSANCE|Period of cultural rebirth in Europe|3
+IMPRESSIONISM|Art movement emphasizing light and color|3
+SURREALISM|Art movement featuring dreamlike images|3
+CHOREOGRAPHY|Art of designing dance movements|3
+SYMPHONY|Large musical composition|3
+OPERA|Musical drama with singing|3
+BALLET|Formal dance performance|3
+LITERATURE|Written artistic works|3

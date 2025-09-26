@@ -1,0 +1,50 @@
+LIVRO|Obra escrita com páginas|1
+HISTORIA|Narrativa com começo e fim|1
+ROMANCE|Livro ficcional longo|2
+POEMA|Escrita artística com ritmo|2
+POESIA|Arte de escrever poemas|2
+AUTOR|Pessoa que escreve livros|2
+ESCRITOR|Pessoa que cria obras escritas|1
+POETA|Pessoa que escreve poemas|2
+PERSONAGEM|Pessoa em uma história|2
+HEROI|Personagem principal bom|1
+VILAO|Personagem mau na história|2
+ENREDO|Principais eventos da história|2
+CAPITULO|Seção de um livro|2
+PAGINA|Folha de papel no livro|1
+PALAVRA|Unidade da linguagem|1
+FRASE|Grupo de palavras expressando pensamento|2
+PARAGRAFO|Grupo de frases|2
+TITULO|Nome do livro ou história|1
+BIBLIOTECA|Lugar com muitos livros|1
+LEITURA|Olhar e entender texto|1
+ESCRITA|Criar texto com caneta ou teclado|1
+FADA|Criatura mágica em histórias|1
+DRAGAO|Criatura mítica que cospe fogo|2
+PRINCESA|Filha de rei ou rainha|1
+PRINCIPE|Filho de rei ou rainha|1
+CASTELO|Grande edifício fortificado|2
+MAGIA|Poder sobrenatural|1
+FEITICO|Palavras mágicas|2
+BRUXA|Pessoa que pratica magia|2
+MAGO|Usuário de magia masculino|2
+AVENTURA|Jornada ou experiência emocionante|2
+MISTERIO|Evento intrigante ou secreto|2
+DETETIVE|Pessoa que resolve crimes|2
+PISTA|Dica para resolver mistério|2
+ADIVINHA|Pergunta intrigante|2
+FABULA|História com lição moral|3
+LENDA|História tradicional|3
+MITO|História antiga sobre deuses|3
+FOLCLORE|Crenças e histórias tradicionais|3
+BIOGRAFIA|História da vida de pessoa|3
+FICCAO|Histórias inventadas|2
+NAOFICCAO|Escrita factual verdadeira|3
+DRAMA|Peça representada no palco|3
+COMEDIA|Peça ou história engraçada|2
+TRAGEDIA|Peça triste com final infeliz|3
+SHAKESPEARE|Famoso dramaturgo inglês|3
+HAMLET|Peça famosa de Shakespeare|3
+ROMEU|Personagem em peça de Shakespeare|3
+JULIETA|Personagem em Romeu e Julieta|3
+SONETO|Poema de quatorze versos|3

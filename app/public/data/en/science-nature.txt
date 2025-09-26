@@ -1,0 +1,50 @@
+ATOM|Smallest unit of matter|3
+MOLECULE|Group of atoms bonded together|3
+OXYGEN|Gas we breathe|2
+CARBON|Element in all living things|2
+HYDROGEN|Lightest chemical element|3
+GRAVITY|Force that pulls objects down|2
+ENERGY|Power to do work|2
+FORCE|Push or pull on object|2
+MOTION|Movement or change in position|2
+SPEED|How fast something moves|1
+LIGHT|Electromagnetic radiation we see|2
+SOUND|Vibrations we hear|2
+HEAT|Form of energy from warmth|1
+COLD|Absence of heat|1
+ICE|Frozen water|1
+STEAM|Water vapor|2
+GAS|State of matter like air|2
+LIQUID|State of matter like water|2
+SOLID|Hard state of matter|2
+CRYSTAL|Solid with regular pattern|3
+MAGNET|Object that attracts metal|2
+ELECTRIC|Related to electricity|2
+BATTERY|Device that stores energy|2
+CIRCUIT|Path for electric current|3
+TELESCOPE|Instrument to see far objects|3
+MICROSCOPE|Instrument to see tiny things|3
+LENS|Curved glass that bends light|3
+PRISM|Glass that splits white light|3
+SPECTRUM|Range of colors in light|3
+PHOTON|Particle of light|3
+ELECTRON|Negatively charged particle|3
+PROTON|Positively charged particle|3
+NEUTRON|Neutral particle in nucleus|3
+NUCLEUS|Center of an atom|3
+CELL|Basic unit of life|2
+DNA|Genetic material|3
+GENE|Unit of heredity|3
+PROTEIN|Large molecule in living things|3
+ENZYME|Protein that speeds reactions|3
+VIRUS|Tiny infectious agent|3
+BACTERIA|Single-celled microorganisms|3
+FUNGUS|Organism like mushrooms|3
+ALGAE|Simple water plants|3
+FOSSIL|Remains of ancient life|2
+EVOLUTION|Change in species over time|3
+ECOSYSTEM|Community of living things|3
+HABITAT|Natural home of organism|2
+SPECIES|Group of similar organisms|3
+EXTINCT|No longer existing|2
+ENDANGERED|At risk of extinction|3

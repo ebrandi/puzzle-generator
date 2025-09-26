@@ -1,0 +1,55 @@
+
+# Literature Word Database
+# Format: WORD|CLUE|DIFFICULTY (1-3)
+BOOK|Collection of pages with text|1
+STORY|Tale or narrative|1
+POEM|Literary work in verse|1
+AUTHOR|Person who writes books|1
+WRITER|Person who creates written works|1
+READ|To look at and understand written words|1
+WRITE|To create text with pen or keyboard|1
+WORD|Unit of language|1
+SENTENCE|Group of words expressing complete thought|1
+PARAGRAPH|Group of sentences about one topic|1
+CHAPTER|Section of a book|1
+PAGE|Sheet of paper in a book|1
+TITLE|Name of a book or story|1
+CHARACTER|Person in a story|1
+HERO|Main good character in a story|1
+VILLAIN|Bad character in a story|1
+PLOT|Main story of a book|1
+SETTING|Where and when a story takes place|1
+FICTION|Stories that are made up|1
+FAIRY|Magical creature in stories|1
+DRAGON|Mythical fire-breathing creature|1
+PRINCESS|Royal female character|1
+CASTLE|Large fortified building|1
+MAGIC|Supernatural power|1
+NOVEL|Long fictional story|2
+POETRY|Literature written in verse|2
+DRAMA|Play performed on stage|2
+COMEDY|Funny play or story|2
+TRAGEDY|Sad play with unhappy ending|2
+MYSTERY|Story about solving a crime or puzzle|2
+ADVENTURE|Exciting story with dangerous events|2
+FANTASY|Story with magical or imaginary elements|2
+BIOGRAPHY|Story of a person's life|2
+AUTOBIOGRAPHY|Story of one's own life|2
+NEWSPAPER|Daily publication with news|2
+MAGAZINE|Periodic publication with articles|2
+LIBRARY|Building with collection of books|2
+DICTIONARY|Book defining words|2
+ENCYCLOPEDIA|Reference book with many topics|2
+SHAKESPEARE|Famous English playwright|2
+NARRATOR|Person telling the story|2
+DIALOGUE|Conversation between characters|2
+METAPHOR|Comparison without using like or as|2
+SIMILE|Comparison using like or as|2
+RHYME|Words that sound alike|2
+RHYTHM|Pattern of beats in poetry|2
+STANZA|Group of lines in a poem|2
+ALLITERATION|Repetition of beginning sounds|3
+PERSONIFICATION|Giving human qualities to non-human things|3
+SYMBOLISM|Use of symbols to represent ideas|3
+IRONY|Expression meaning opposite of literal meaning|3
+FORESHADOWING|Hints about future events in story|3

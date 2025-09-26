@@ -1,0 +1,50 @@
+COMPUTER|Electronic device for processing data|2
+LAPTOP|Portable computer|2
+TABLET|Flat touchscreen device|2
+PHONE|Device for talking to people|1
+SMARTPHONE|Phone with computer features|3
+INTERNET|Global network of computers|2
+WEBSITE|Collection of web pages|2
+EMAIL|Electronic mail|2
+KEYBOARD|Device with keys for typing|2
+MOUSE|Device for pointing and clicking|2
+SCREEN|Display surface|1
+MONITOR|Computer display screen|2
+PRINTER|Device that prints on paper|2
+SCANNER|Device that copies images|3
+CAMERA|Device for taking pictures|2
+VIDEO|Moving pictures|1
+AUDIO|Sound recording|2
+SPEAKER|Device that makes sound|2
+MICROPHONE|Device for recording sound|3
+HEADPHONES|Personal listening device|2
+BATTERY|Device that stores power|2
+CHARGER|Device that gives power|2
+CABLE|Wire for connecting devices|2
+WIRELESS|Without wires|2
+BLUETOOTH|Short-range wireless connection|3
+WIFI|Wireless internet connection|2
+SOFTWARE|Computer programs|3
+HARDWARE|Physical computer parts|3
+PROGRAM|Set of computer instructions|2
+APP|Application software|2
+GAME|Entertainment software|1
+DATA|Information stored digitally|2
+FILE|Collection of data|2
+FOLDER|Container for files|2
+DOWNLOAD|Get file from internet|2
+UPLOAD|Send file to internet|2
+BACKUP|Copy of important data|3
+VIRUS|Harmful computer program|3
+PASSWORD|Secret code for access|2
+USERNAME|Name for logging in|2
+ROBOT|Automated machine|2
+ARTIFICIAL|Made by humans not nature|3
+INTELLIGENCE|Ability to think and learn|3
+DIGITAL|Using numbers and computers|2
+VIRTUAL|Existing in computer simulation|3
+CLOUD|Internet-based storage|3
+STREAMING|Playing media from internet|3
+SOCIAL|Related to interaction with others|2
+NETWORK|Connected group of devices|3
+CODING|Writing computer programs|3

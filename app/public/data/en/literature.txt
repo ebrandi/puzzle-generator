@@ -1,0 +1,50 @@
+BOOK|Written work with pages|1
+STORY|Narrative with beginning and end|1
+NOVEL|Long fictional book|2
+POEM|Artistic writing with rhythm|2
+POETRY|Art of writing poems|2
+AUTHOR|Person who writes books|2
+WRITER|Person who creates written works|1
+POET|Person who writes poems|2
+CHARACTER|Person in a story|2
+HERO|Main good character|1
+VILLAIN|Bad character in story|2
+PLOT|Main story events|2
+CHAPTER|Section of a book|2
+PAGE|Sheet of paper in book|1
+WORD|Unit of language|1
+SENTENCE|Group of words expressing thought|2
+PARAGRAPH|Group of sentences|2
+TITLE|Name of book or story|1
+LIBRARY|Place with many books|1
+READING|Looking at and understanding text|1
+WRITING|Creating text with pen or keyboard|1
+FAIRY|Magical creature in stories|1
+DRAGON|Mythical fire-breathing creature|2
+PRINCESS|Daughter of king or queen|1
+PRINCE|Son of king or queen|1
+CASTLE|Large fortified building|2
+MAGIC|Supernatural power|1
+SPELL|Magical words|2
+WITCH|Person who practices magic|2
+WIZARD|Male magic user|2
+ADVENTURE|Exciting journey or experience|2
+MYSTERY|Puzzling or secret event|2
+DETECTIVE|Person who solves crimes|2
+CLUE|Hint to solve mystery|2
+RIDDLE|Puzzling question|2
+FABLE|Story with moral lesson|3
+LEGEND|Traditional story|3
+MYTH|Ancient story about gods|3
+FOLKLORE|Traditional beliefs and stories|3
+BIOGRAPHY|Story of person's life|3
+FICTION|Made-up stories|2
+NONFICTION|True factual writing|3
+DRAMA|Play performed on stage|3
+COMEDY|Funny play or story|2
+TRAGEDY|Sad play with unhappy ending|3
+SHAKESPEARE|Famous English playwright|3
+HAMLET|Famous play by Shakespeare|3
+ROMEO|Character in Shakespeare play|3
+JULIET|Character in Romeo and Juliet|3
+SONNET|Fourteen-line poem|3

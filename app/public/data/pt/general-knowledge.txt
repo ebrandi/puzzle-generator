@@ -1,0 +1,50 @@
+TERRA|Terceiro planeta do Sol|1
+AGUA|Líquido essencial para a vida|1
+FOGO|Chama quente que queima|1
+LUA|Satélite natural da Terra|1
+SOL|Estrela no centro do sistema solar|1
+ARCOIRIS|Arco colorido no céu após chuva|2
+OCEANO|Grande corpo de água salgada|1
+MONTANHA|Elevação natural alta|2
+DESERTO|Região seca e arenosa|2
+FLORESTA|Área com muitas árvores|1
+RIO|Corpo de água corrente|1
+NUVEM|Massa branca fofa no céu|1
+VENTO|Ar em movimento|1
+NEVE|Precipitação branca congelada|1
+CHUVA|Água caindo das nuvens|1
+TROVAO|Som após o relâmpago|2
+RELAMPAGO|Flash elétrico na tempestade|2
+ESTACAO|Quarto do ano|2
+INVERNO|Estação mais fria|1
+VERAO|Estação mais quente|1
+PRIMAVERA|Estação do crescimento|1
+OUTONO|Estação da queda|2
+CALENDARIO|Sistema para organizar dias|2
+RELOGIO|Dispositivo que mostra tempo|1
+MINUTO|Sessenta segundos|1
+HORA|Sessenta minutos|1
+DIA|Vinte e quatro horas|1
+SEMANA|Sete dias|1
+MES|Parte de um ano|1
+ANO|Doze meses|1
+SECULO|Cem anos|2
+DECADA|Dez anos|2
+BUSSOLA|Instrumento de navegação|2
+NORTE|Direção para o Ártico|1
+SUL|Direção para a Antártica|1
+LESTE|Direção do nascer do sol|1
+OESTE|Direção do pôr do sol|1
+GLOBO|Modelo da Terra|2
+MAPA|Desenho de uma área|1
+PAIS|Nação ou território|1
+CIDADE|Grande vila|1
+ALDEIA|Pequena comunidade|2
+CAPITAL|Cidade principal do país|2
+BANDEIRA|Símbolo nacional em tecido|1
+IDIOMA|Sistema de comunicação|2
+ALFABETO|Conjunto de letras|2
+NUMERO|Símbolo matemático|1
+ZERO|Nada ou vazio|1
+MILHAO|Mil milhares|3
+BILHAO|Mil milhões|3

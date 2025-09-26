@@ -1,0 +1,50 @@
+COMIDA|Lo que comemos|1
+COMIDA|Comida consumida de una vez|1
+DESAYUNO|Primera comida del día|2
+ALMUERZO|Comida del mediodía|1
+CENA|Comida de la noche|1
+MERIENDA|Pequeña cantidad de comida|2
+PAN|Comida horneada hecha de harina|1
+ARROZ|Pequeños granos blancos|1
+PASTA|Comida italiana hecha de trigo|2
+PIZZA|Pan plano con coberturas|2
+SOPA|Comida líquida|1
+ENSALADA|Vegetales mezclados|2
+SANDWICH|Comida entre rebanadas de pan|2
+CARNE|Carne animal para comer|1
+POLLO|Carne de ave|1
+RES|Carne de ganado|2
+CERDO|Carne de cerdos|2
+PESCADO|Mariscos|1
+HUEVO|Comida oval de aves|1
+LECHE|Líquido blanco de vacas|1
+QUESO|Producto lácteo|2
+MANTEQUILLA|Pasta láctea amarilla|2
+YOGUR|Producto lácteo espeso|2
+FRUTA|Producto vegetal dulce|1
+MANZANA|Fruta redonda roja o verde|1
+PLATANO|Fruta amarilla curvada|1
+NARANJA|Fruta cítrica|1
+UVA|Fruta pequeña redonda|1
+BAYA|Fruta pequeña suave|2
+VEGETAL|Comida vegetal|2
+ZANAHORIA|Vegetal raíz naranja|2
+PAPA|Vegetal subterráneo|2
+TOMATE|Vegetal redondo rojo|2
+CEBOLLA|Vegetal bulbo en capas|2
+LECHUGA|Vegetal hojoso verde|2
+COCINAR|Preparar comida con calor|2
+HORNEAR|Cocinar en horno|2
+FREIR|Cocinar en aceite caliente|2
+HERVIR|Cocinar en agua caliente|2
+ASAR|Cocinar sobre fuego|2
+RECETA|Instrucciones para cocinar|3
+INGREDIENTE|Artículo usado en cocina|3
+ESPECIA|Condimento para sabor|2
+SAL|Condimento blanco|1
+PIMIENTA|Condimento negro|2
+AZUCAR|Cristales blancos dulces|1
+HARINA|Polvo para hornear|2
+ACEITE|Grasa líquida para cocinar|2
+COCINA|Habitación para cocinar|2
+RESTAURANTE|Lugar para comprar comidas|2

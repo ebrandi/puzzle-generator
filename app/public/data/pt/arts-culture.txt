@@ -1,0 +1,50 @@
+ARTE|Expressão visual criativa|1
+PINTURA|Arte feita com tinta|2
+DESENHO|Arte feita com lápis ou caneta|2
+ESCULTURA|Arte tridimensional|3
+MUSICA|Sons organizados|1
+CANCAO|Composição musical com palavras|1
+DANCA|Mover-se no ritmo|1
+TEATRO|Arte de performance ao vivo|2
+FILME|Filme de cinema|1
+CINEMA|Imagens em movimento na tela|2
+ATOR|Pessoa que atua em peças|2
+ATRIZ|Artista feminina em peças|2
+DIRETOR|Pessoa que orienta a produção de filmes|3
+MUSICO|Pessoa que toca música|2
+CANTOR|Pessoa que canta|1
+ARTISTA|Pessoa que cria arte|2
+PINTOR|Pessoa que pinta|2
+ESCULTOR|Pessoa que faz esculturas|3
+DANCARIN|Pessoa que dança|2
+PIANO|Instrumento musical de teclado|2
+VIOLAO|Instrumento musical de cordas|2
+VIOLINO|Pequeno instrumento de cordas|2
+TAMBOR|Instrumento de percussão|1
+FLAUTA|Instrumento de sopro|2
+TROMPETE|Instrumento musical de metal|2
+ORQUESTRA|Grande grupo de músicos|3
+BANDA|Grupo de músicos|2
+CORO|Grupo de cantores|2
+CONCERTO|Performance musical|2
+OPERA|Drama musical|3
+BALE|Forma de dança clássica|3
+MUSEU|Local exibindo arte e artefatos|2
+GALERIA|Local mostrando obras de arte|3
+EXPOSICAO|Exibição pública de arte|3
+TELA|Superfície de tecido para pintura|3
+PINCEL|Ferramenta para pintar|2
+PALETA|Tábua para misturar cores|3
+COR|Propriedade visual da luz|1
+VERMELHO|Cor primária|1
+AZUL|Cor primária|1
+AMARELO|Cor primária|1
+VERDE|Cor secundária|1
+ROXO|Cor secundária|1
+LARANJA|Cor secundária|1
+PRETO|Ausência de cor|1
+BRANCO|Todas as cores combinadas|1
+CULTURA|Modo de vida das pessoas|2
+TRADICAO|Costume passado adiante|3
+FESTIVAL|Celebração ou feriado|2
+FANTASIA|Roupa especial para performance|3

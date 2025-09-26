@@ -1,0 +1,50 @@
+TRAVEL|Going from one place to another|2
+TRIP|Journey to a place|1
+JOURNEY|Long travel|2
+VACATION|Time away from work|2
+HOLIDAY|Special day or time off|2
+TOURIST|Person visiting places|2
+GUIDE|Person who shows places|2
+MAP|Drawing showing places|1
+COMPASS|Tool showing direction|2
+LUGGAGE|Bags for traveling|2
+SUITCASE|Box for clothes when traveling|2
+PASSPORT|Document for international travel|3
+TICKET|Paper allowing travel|2
+AIRPLANE|Flying vehicle|2
+AIRPORT|Place for airplanes|2
+TRAIN|Vehicle on rails|1
+STATION|Place for trains|2
+BUS|Large vehicle for passengers|1
+CAR|Personal vehicle|1
+SHIP|Large boat|1
+BOAT|Water vehicle|1
+HOTEL|Place to stay overnight|2
+MOTEL|Roadside hotel|3
+RESORT|Vacation place with activities|3
+CAMPING|Sleeping outdoors|2
+TENT|Portable shelter|2
+BEACH|Sandy area by water|1
+OCEAN|Large body of salt water|1
+LAKE|Large body of fresh water|1
+MOUNTAIN|High land formation|1
+FOREST|Area with many trees|1
+DESERT|Dry sandy area|2
+CITY|Large town|1
+TOWN|Small city|1
+VILLAGE|Very small town|2
+COUNTRY|Nation|1
+CONTINENT|Large land area|2
+ISLAND|Land surrounded by water|2
+BRIDGE|Structure over water|2
+ROAD|Path for vehicles|1
+STREET|Road in city|1
+AVENUE|Wide street|2
+PARK|Green area for recreation|1
+MUSEUM|Place with historical objects|2
+MONUMENT|Structure built to remember|3
+CASTLE|Large old fortified building|2
+PALACE|Large fancy building|2
+TEMPLE|Religious building|2
+CHURCH|Christian place of worship|2
+MARKET|Place to buy things|2

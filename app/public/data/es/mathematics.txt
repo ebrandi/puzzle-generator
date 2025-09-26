@@ -1,0 +1,50 @@
+NUMERO|Símbolo matemático|1
+UNO|Primer número para contar|1
+DOS|Número después de uno|1
+TRES|Número después de dos|1
+CUATRO|Número después de tres|1
+CINCO|Número después de cuatro|1
+SEIS|Número después de cinco|1
+SIETE|Número después de seis|1
+OCHO|Número después de siete|1
+NUEVE|Número después de ocho|1
+DIEZ|Número después de nueve|1
+CERO|Nada o vacío|1
+CIEN|Diez veces diez|2
+MIL|Diez centenas|2
+MAS|Símbolo de suma|1
+MENOS|Símbolo de resta|1
+POR|Símbolo de multiplicación|1
+DIVIDIR|Separar en partes iguales|2
+IGUAL|Lo mismo que o igual a|1
+SUMA|Resultado de adición|2
+DIFERENCIA|Resultado de sustracción|2
+PRODUCTO|Resultado de multiplicación|2
+COCIENTE|Resultado de división|3
+FRACCION|Parte de un todo|2
+MITAD|Una de dos partes iguales|1
+CUARTO|Una de cuatro partes iguales|2
+TERCIO|Una de tres partes iguales|2
+DECIMAL|Número con punto|2
+PORCIENTO|De cien|2
+PAR|Número divisible por dos|2
+IMPAR|Número no divisible por dos|2
+PRIMO|Número con solo dos factores|3
+FACTOR|Número que divide uniformemente|3
+MULTIPLO|Producto de número y entero|3
+CUADRADO|Número por sí mismo|2
+CUBO|Número por sí mismo tres veces|3
+RAIZ|Número que al cuadrado da original|3
+POTENCIA|Número elevado a exponente|3
+ECUACION|Declaración matemática con igual|3
+VARIABLE|Letra representando número desconocido|3
+ALGEBRA|Matemáticas con letras y números|3
+GEOMETRIA|Matemáticas sobre formas y espacio|3
+CIRCULO|Forma redonda|1
+CUADRADO|Forma con cuatro lados iguales|1
+TRIANGULO|Forma con tres lados|1
+RECTANGULO|Forma con cuatro ángulos rectos|2
+PENTAGONO|Forma con cinco lados|3
+HEXAGONO|Forma con seis lados|3
+ANGULO|Espacio entre dos líneas|2
+DIAMETRO|Línea a través del círculo por centro|3

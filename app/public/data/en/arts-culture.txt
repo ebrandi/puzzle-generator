@@ -1,0 +1,50 @@
+ART|Creative visual expression|1
+PAINTING|Art made with paint|2
+DRAWING|Art made with pencil or pen|2
+SCULPTURE|Three-dimensional art|3
+MUSIC|Organized sounds|1
+SONG|Musical composition with words|1
+DANCE|Moving to rhythm|1
+THEATER|Live performance art|2
+MOVIE|Motion picture film|1
+FILM|Moving pictures on screen|2
+ACTOR|Person who performs in plays|2
+ACTRESS|Female performer in plays|2
+DIRECTOR|Person who guides film making|3
+MUSICIAN|Person who plays music|2
+SINGER|Person who sings|1
+ARTIST|Person who creates art|2
+PAINTER|Person who paints|2
+SCULPTOR|Person who makes sculptures|3
+DANCER|Person who dances|2
+PIANO|Keyboard musical instrument|2
+GUITAR|Stringed musical instrument|2
+VIOLIN|Small stringed instrument|2
+DRUM|Percussion instrument|1
+FLUTE|Wind instrument|2
+TRUMPET|Brass musical instrument|2
+ORCHESTRA|Large group of musicians|3
+BAND|Group of musicians|2
+CHOIR|Group of singers|2
+CONCERT|Musical performance|2
+OPERA|Musical drama|3
+BALLET|Classical dance form|3
+MUSEUM|Place displaying art and artifacts|2
+GALLERY|Place showing artwork|3
+EXHIBITION|Public display of art|3
+CANVAS|Cloth surface for painting|3
+BRUSH|Tool for painting|2
+PALETTE|Board for mixing colors|3
+COLOR|Visual property of light|1
+RED|Primary color|1
+BLUE|Primary color|1
+YELLOW|Primary color|1
+GREEN|Secondary color|1
+PURPLE|Secondary color|1
+ORANGE|Secondary color|1
+BLACK|Absence of color|1
+WHITE|All colors combined|1
+CULTURE|Way of life of people|2
+TRADITION|Custom passed down|3
+FESTIVAL|Celebration or holiday|2
+COSTUME|Special clothing for performance|3

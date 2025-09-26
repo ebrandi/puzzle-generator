@@ -1,0 +1,50 @@
+NUMBER|Mathematical symbol|1
+ONE|First counting number|1
+TWO|Number after one|1
+THREE|Number after two|1
+FOUR|Number after three|1
+FIVE|Number after four|1
+SIX|Number after five|1
+SEVEN|Number after six|1
+EIGHT|Number after seven|1
+NINE|Number after eight|1
+TEN|Number after nine|1
+ZERO|Nothing or empty|1
+HUNDRED|Ten times ten|2
+THOUSAND|Ten hundreds|2
+PLUS|Addition symbol|1
+MINUS|Subtraction symbol|1
+TIMES|Multiplication symbol|1
+DIVIDE|Split into equal parts|2
+EQUALS|Same as or equal to|1
+SUM|Result of addition|2
+DIFFERENCE|Result of subtraction|2
+PRODUCT|Result of multiplication|2
+QUOTIENT|Result of division|3
+FRACTION|Part of a whole|2
+HALF|One of two equal parts|1
+QUARTER|One of four equal parts|2
+THIRD|One of three equal parts|2
+DECIMAL|Number with point|2
+PERCENT|Out of one hundred|2
+EVEN|Number divisible by two|2
+ODD|Number not divisible by two|2
+PRIME|Number with only two factors|3
+FACTOR|Number that divides evenly|3
+MULTIPLE|Product of number and integer|3
+SQUARE|Number times itself|2
+CUBE|Number times itself three times|3
+ROOT|Number that when squared gives original|3
+POWER|Number raised to exponent|3
+EQUATION|Mathematical statement with equals|3
+VARIABLE|Letter representing unknown number|3
+ALGEBRA|Math with letters and numbers|3
+GEOMETRY|Math about shapes and space|3
+CIRCLE|Round shape|1
+SQUARE|Shape with four equal sides|1
+TRIANGLE|Shape with three sides|1
+RECTANGLE|Shape with four right angles|2
+PENTAGON|Shape with five sides|3
+HEXAGON|Shape with six sides|3
+ANGLE|Space between two lines|2
+DIAMETER|Line across circle through center|3

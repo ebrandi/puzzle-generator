@@ -1,0 +1,50 @@
+NUMERO|Símbolo matemático|1
+UM|Primeiro número para contar|1
+DOIS|Número após um|1
+TRES|Número após dois|1
+QUATRO|Número após três|1
+CINCO|Número após quatro|1
+SEIS|Número após cinco|1
+SETE|Número após seis|1
+OITO|Número após sete|1
+NOVE|Número após oito|1
+DEZ|Número após nove|1
+ZERO|Nada ou vazio|1
+CEM|Dez vezes dez|2
+MIL|Dez centenas|2
+MAIS|Símbolo de adição|1
+MENOS|Símbolo de subtração|1
+VEZES|Símbolo de multiplicação|1
+DIVIDIR|Separar em partes iguais|2
+IGUAL|Mesmo que ou igual a|1
+SOMA|Resultado da adição|2
+DIFERENCA|Resultado da subtração|2
+PRODUTO|Resultado da multiplicação|2
+QUOCIENTE|Resultado da divisão|3
+FRACAO|Parte de um todo|2
+METADE|Uma de duas partes iguais|1
+QUARTO|Uma de quatro partes iguais|2
+TERCO|Uma de três partes iguais|2
+DECIMAL|Número com ponto|2
+PORCENTO|De cem|2
+PAR|Número divisível por dois|2
+IMPAR|Número não divisível por dois|2
+PRIMO|Número com apenas dois fatores|3
+FATOR|Número que divide uniformemente|3
+MULTIPLO|Produto de número e inteiro|3
+QUADRADO|Número vezes ele mesmo|2
+CUBO|Número vezes ele mesmo três vezes|3
+RAIZ|Número que ao quadrado dá original|3
+POTENCIA|Número elevado a expoente|3
+EQUACAO|Declaração matemática com igual|3
+VARIAVEL|Letra representando número desconhecido|3
+ALGEBRA|Matemática com letras e números|3
+GEOMETRIA|Matemática sobre formas e espaço|3
+CIRCULO|Forma redonda|1
+QUADRADO|Forma com quatro lados iguais|1
+TRIANGULO|Forma com três lados|1
+RETANGULO|Forma com quatro ângulos retos|2
+PENTAGONO|Forma com cinco lados|3
+HEXAGONO|Forma com seis lados|3
+ANGULO|Espaço entre duas linhas|2
+DIAMETRO|Linha através do círculo pelo centro|3

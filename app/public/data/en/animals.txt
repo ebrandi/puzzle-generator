@@ -1,0 +1,50 @@
+DOG|Man's best friend|1
+CAT|Furry pet that meows|1
+BIRD|Animal with wings and feathers|1
+FISH|Animal that lives in water|1
+HORSE|Large animal people ride|1
+COW|Farm animal that gives milk|1
+PIG|Pink farm animal|1
+SHEEP|Woolly farm animal|1
+CHICKEN|Bird that lays eggs|1
+DUCK|Water bird with webbed feet|1
+RABBIT|Small hopping animal|1
+MOUSE|Small rodent|1
+ELEPHANT|Largest land animal|2
+LION|King of the jungle|1
+TIGER|Large striped cat|2
+BEAR|Large furry animal|1
+WOLF|Wild dog that howls|2
+FOX|Clever red animal|2
+DEER|Animal with antlers|2
+MONKEY|Primate that swings in trees|2
+GORILLA|Large ape|2
+ZEBRA|Horse with black and white stripes|2
+GIRAFFE|Tallest animal with long neck|2
+HIPPO|Large water animal|2
+RHINO|Animal with horn on nose|2
+CROCODILE|Large reptile with big teeth|3
+SNAKE|Long animal without legs|2
+LIZARD|Small reptile|2
+TURTLE|Animal with shell|2
+FROG|Amphibian that jumps|1
+BUTTERFLY|Colorful flying insect|2
+BEE|Insect that makes honey|2
+ANT|Small hardworking insect|2
+SPIDER|Eight-legged creature|2
+WHALE|Largest animal in ocean|2
+DOLPHIN|Smart ocean mammal|2
+SHARK|Dangerous fish with sharp teeth|2
+OCTOPUS|Sea animal with eight arms|3
+CRAB|Sea animal with claws|2
+PENGUIN|Black and white bird that can't fly|2
+EAGLE|Large bird of prey|2
+OWL|Night bird with big eyes|2
+PARROT|Colorful bird that can talk|2
+KANGAROO|Jumping animal from Australia|3
+KOALA|Australian animal that eats eucalyptus|3
+PANDA|Black and white bear from China|2
+CAMEL|Desert animal with humps|2
+LLAMA|South American animal like camel|3
+PEACOCK|Bird with beautiful colorful tail|3
+FLAMINGO|Pink bird that stands on one leg|3

@@ -1,0 +1,50 @@
+FOOD|What we eat|1
+MEAL|Food eaten at one time|1
+BREAKFAST|First meal of day|2
+LUNCH|Midday meal|1
+DINNER|Evening meal|1
+SNACK|Small amount of food|2
+BREAD|Baked food made from flour|1
+RICE|Small white grains|1
+PASTA|Italian food made from wheat|2
+PIZZA|Flat bread with toppings|2
+SOUP|Liquid food|1
+SALAD|Mixed vegetables|2
+SANDWICH|Food between bread slices|2
+MEAT|Animal flesh for eating|1
+CHICKEN|Poultry meat|1
+BEEF|Meat from cattle|2
+PORK|Meat from pigs|2
+FISH|Seafood|1
+EGG|Oval food from birds|1
+MILK|White liquid from cows|1
+CHEESE|Dairy product|2
+BUTTER|Yellow dairy spread|2
+YOGURT|Thick dairy product|2
+FRUIT|Sweet plant product|1
+APPLE|Red or green round fruit|1
+BANANA|Yellow curved fruit|1
+ORANGE|Citrus fruit|1
+GRAPE|Small round fruit|1
+BERRY|Small soft fruit|2
+VEGETABLE|Plant food|2
+CARROT|Orange root vegetable|2
+POTATO|Underground vegetable|2
+TOMATO|Red round vegetable|2
+ONION|Layered bulb vegetable|2
+LETTUCE|Green leafy vegetable|2
+COOKING|Preparing food with heat|2
+BAKING|Cooking in oven|2
+FRYING|Cooking in hot oil|2
+BOILING|Cooking in hot water|2
+GRILLING|Cooking over fire|2
+RECIPE|Instructions for cooking|3
+INGREDIENT|Item used in cooking|3
+SPICE|Seasoning for flavor|2
+SALT|White seasoning|1
+PEPPER|Black seasoning|2
+SUGAR|Sweet white crystals|1
+FLOUR|Powder for baking|2
+OIL|Liquid fat for cooking|2
+KITCHEN|Room for cooking|2
+RESTAURANT|Place to buy meals|2

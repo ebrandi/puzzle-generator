@@ -1,0 +1,50 @@
+EARTH|Third planet from the Sun|1
+WATER|Essential liquid for life|1
+FIRE|Hot burning flame|1
+MOON|Earth's natural satellite|1
+SUN|Star at center of solar system|1
+RAINBOW|Colorful arc in the sky after rain|2
+OCEAN|Large body of salt water|1
+MOUNTAIN|High natural elevation|2
+DESERT|Dry sandy region|2
+FOREST|Area with many trees|1
+RIVER|Flowing body of water|1
+CLOUD|White fluffy mass in sky|1
+WIND|Moving air|1
+SNOW|Frozen white precipitation|1
+RAIN|Water falling from clouds|1
+THUNDER|Sound after lightning|2
+LIGHTNING|Electric flash in storm|2
+SEASON|Quarter of the year|2
+WINTER|Coldest season|1
+SUMMER|Warmest season|1
+SPRING|Season of growth|1
+AUTUMN|Fall season|2
+CALENDAR|System for organizing days|2
+CLOCK|Device that shows time|1
+MINUTE|Sixty seconds|1
+HOUR|Sixty minutes|1
+DAY|Twenty-four hours|1
+WEEK|Seven days|1
+MONTH|Part of a year|1
+YEAR|Twelve months|1
+CENTURY|One hundred years|2
+DECADE|Ten years|2
+COMPASS|Navigation instrument|2
+NORTH|Direction toward Arctic|1
+SOUTH|Direction toward Antarctic|1
+EAST|Direction of sunrise|1
+WEST|Direction of sunset|1
+GLOBE|Model of Earth|2
+MAP|Drawing of an area|1
+COUNTRY|Nation or territory|1
+CITY|Large town|1
+VILLAGE|Small community|2
+CAPITAL|Main city of country|2
+FLAG|National symbol on cloth|1
+LANGUAGE|System of communication|2
+ALPHABET|Set of letters|2
+NUMBER|Mathematical symbol|1
+ZERO|Nothing or empty|1
+MILLION|One thousand thousands|3
+BILLION|One thousand millions|3
