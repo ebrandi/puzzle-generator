@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # 🧩 Ebrandi Puzzle Generator - Automated Deployment Script
@@ -16,7 +15,9 @@ NC='\033[0m' # No Color
 # Configuration
 NODE_VERSION="18"
 APP_NAME="Ebrandi Puzzle Generator"
-APP_DIR="$(pwd)/app"
+GITHUB_REPO="https://github.com/ebrandi/puzzle-generator.git"
+PROJECT_DIR="puzzle-generator"
+APP_DIR=""
 PORT=3000
 
 # Helper functions
@@ -178,19 +179,51 @@ install_system_dependencies() {
     print_success "System dependencies installed"
 }
 
+download_project() {
+    print_header "Downloading $APP_NAME"
+    
+    # Check if we need to download the project
+    if [[ ! -f "README.md" ]] || [[ ! -d "app" ]]; then
+        print_info "Project files not found locally. Downloading from GitHub..."
+        
+        # Ensure git is available
+        if ! check_command git; then
+            print_info "Git is not installed. Installing git..."
+            sudo apt update -qq
+            sudo apt install -y git
+        fi
+        
+        # Remove existing directory if it exists but is incomplete
+        if [[ -d "$PROJECT_DIR" ]]; then
+            print_info "Removing incomplete project directory..."
+            rm -rf "$PROJECT_DIR"
+        fi
+        
+        # Clone the repository
+        print_info "Cloning repository from $GITHUB_REPO..."
+        if ! git clone "$GITHUB_REPO" "$PROJECT_DIR"; then
+            print_error "Failed to clone repository from $GITHUB_REPO"
+            print_info "Please check your internet connection and try again"
+            exit 1
+        fi
+        
+        # Change to project directory
+        cd "$PROJECT_DIR" || {
+            print_error "Cannot access project directory: $PROJECT_DIR"
+            exit 1
+        }
+        
+        print_success "Project downloaded successfully"
+    else
+        print_success "Running from existing project directory"
+    fi
+    
+    # Set APP_DIR to the correct path
+    APP_DIR="$(pwd)/app"
+}
+
 setup_application() {
     print_header "Setting Up $APP_NAME"
-    
-    # Check if we're in the right directory
-    if [[ ! -f "README.md" ]] || [[ ! -d "app" ]]; then
-        print_error "Please run this script from the puzzle-generator root directory"
-        print_info "Expected directory structure:"
-        print_info "  puzzle-generator/"
-        print_info "  ├── app/"
-        print_info "  ├── deploy.sh"
-        print_info "  └── README.md"
-        exit 1
-    fi
     
     # Navigate to app directory
     cd "$APP_DIR" || {
@@ -333,10 +366,10 @@ show_completion_info() {
     echo "4. To stop the application: pkill -f 'next.*dev'"
     
     echo -e "\n${YELLOW}📚 Useful Commands:${NC}"
-    echo "• Start development server: cd $APP_DIR && yarn dev"
-    echo "• Build for production: cd $APP_DIR && yarn build"
-    echo "• Start production server: cd $APP_DIR && yarn start"
-    echo "• View application logs: cd $APP_DIR && yarn dev"
+    echo "• Start development server: cd \"$APP_DIR\" && yarn dev"
+    echo "• Build for production: cd \"$APP_DIR\" && yarn build"
+    echo "• Start production server: cd \"$APP_DIR\" && yarn start"
+    echo "• View application logs: cd \"$APP_DIR\" && yarn dev"
     
     echo -e "\n${YELLOW}🆘 Need Help?${NC}"
     echo "• Check the README.md for detailed documentation"
@@ -367,7 +400,11 @@ main() {
     
     print_header "🧩 $APP_NAME - Automated Deployment"
     echo -e "${BLUE}This script will install and configure the Puzzle Generator${NC}"
-    echo -e "${BLUE}on Ubuntu 24.04 LTS. Press Ctrl+C to cancel.${NC}\n"
+    echo -e "${BLUE}on Ubuntu 24.04 LTS. Press Ctrl+C to cancel.${NC}"
+    echo -e "${BLUE}${NC}"
+    echo -e "${BLUE}Installation methods:${NC}"
+    echo -e "${BLUE}• Remote: curl -fsSL https://raw.githubusercontent.com/ebrandi/puzzle-generator/main/deploy.sh | bash${NC}"
+    echo -e "${BLUE}• Local:  git clone repo && cd puzzle-generator && ./deploy.sh${NC}\n"
     
     # Give user a chance to cancel
     sleep 3
@@ -377,6 +414,7 @@ main() {
     update_system
     install_system_dependencies
     install_node
+    download_project
     setup_application
     setup_firewall
     start_application
@@ -390,3 +428,4 @@ main() {
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main "$@"
 fi
+
