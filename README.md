@@ -105,7 +105,7 @@ For the fastest setup, use our automated deployment script:
 
 ```bash
 # Download and run the deployment script
-curl -fsSL https://raw.githubusercontent.com/ebrandi/puzzle-generator/main/deploy.sh | bash
+bash <(curl -fsSL  https://raw.githubusercontent.com/ebrandi/puzzle-generator/main/deploy.sh)
 ```
 
 Or clone the repository and run locally:
