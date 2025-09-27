@@ -17,7 +17,8 @@ NODE_VERSION="18"
 APP_NAME="Ebrandi Puzzle Generator"
 GITHUB_REPO="https://github.com/ebrandi/puzzle-generator.git"
 PROJECT_DIR="puzzle-generator"
-APP_DIR=""
+APP_DIR="/opt/puzzle-generator"
+APP_USER="puzzle-generator"
 PORT=3000
 DEPLOYMENT_TYPE=""
 DOMAIN=""
@@ -283,12 +284,50 @@ install_system_dependencies() {
     print_success "System dependencies installed"
 }
 
+create_app_user() {
+    print_header "Creating Application User"
+    
+    if ! id "$APP_USER" &>/dev/null; then
+        print_info "Creating system user: $APP_USER"
+        
+        # Create system user with no login shell
+        sudo useradd --system --shell /bin/false --home "$APP_DIR" --create-home "$APP_USER" 2>/dev/null || true
+        
+        # If user creation failed because user exists, that's fine
+        if id "$APP_USER" &>/dev/null; then
+            print_success "User $APP_USER created successfully"
+        else
+            print_error "Failed to create user $APP_USER"
+            exit 1
+        fi
+    else
+        print_info "User $APP_USER already exists"
+    fi
+}
+
+setup_app_directory() {
+    print_header "Setting Up Application Directory"
+    
+    print_info "Creating application directory: $APP_DIR"
+    
+    # Create the application directory if it doesn't exist
+    sudo mkdir -p "$APP_DIR"
+    
+    # Set ownership to the app user
+    sudo chown -R "$APP_USER:$APP_USER" "$APP_DIR"
+    
+    # Set proper permissions
+    sudo chmod 755 "$APP_DIR"
+    
+    print_success "Application directory created and configured"
+}
+
 download_project() {
     print_header "Downloading $APP_NAME"
     
     # Check if we need to download the project
-    if [[ ! -f "README.md" ]] || [[ ! -d "app" ]]; then
-        print_info "Project files not found locally. Downloading from GitHub..."
+    if [[ ! -f "$APP_DIR/README.md" ]] || [[ ! -d "$APP_DIR/app" ]]; then
+        print_info "Project files not found. Downloading from GitHub..."
         
         # Ensure git is available
         if ! check_command git; then
@@ -297,69 +336,83 @@ download_project() {
             sudo apt install -y git
         fi
         
-        # Remove existing directory if it exists but is incomplete
-        if [[ -d "$PROJECT_DIR" ]]; then
-            print_info "Removing incomplete project directory..."
-            rm -rf "$PROJECT_DIR"
-        fi
+        # Create temporary directory for downloading
+        local temp_dir="/tmp/puzzle-generator-$$"
         
-        # Clone the repository
+        # Clone the repository to temporary location
         print_info "Cloning repository from $GITHUB_REPO..."
-        if ! git clone "$GITHUB_REPO" "$PROJECT_DIR"; then
+        if ! git clone "$GITHUB_REPO" "$temp_dir"; then
             print_error "Failed to clone repository from $GITHUB_REPO"
             print_info "Please check your internet connection and try again"
             exit 1
         fi
         
-        # Change to project directory
-        cd "$PROJECT_DIR" || {
-            print_error "Cannot access project directory: $PROJECT_DIR"
-            exit 1
-        }
+        # Copy files to the application directory with proper ownership
+        print_info "Installing application files to $APP_DIR..."
+        sudo cp -r "$temp_dir"/* "$APP_DIR/"
         
-        print_success "Project downloaded successfully"
+        # Set proper ownership
+        sudo chown -R "$APP_USER:$APP_USER" "$APP_DIR"
+        
+        # Set proper permissions
+        sudo chmod -R 755 "$APP_DIR"
+        sudo chmod -R 644 "$APP_DIR"/{*,.*} 2>/dev/null || true
+        sudo find "$APP_DIR" -type d -exec chmod 755 {} \;
+        sudo find "$APP_DIR" -name "*.sh" -exec chmod 755 {} \;
+        
+        # Copy manage.sh script to the app directory for easy access
+        if [[ -f "$temp_dir/manage.sh" ]]; then
+            sudo cp "$temp_dir/manage.sh" "$APP_DIR/"
+            sudo chown "$APP_USER:$APP_USER" "$APP_DIR/manage.sh"
+            sudo chmod 755 "$APP_DIR/manage.sh"
+        fi
+        
+        # Clean up temporary directory
+        rm -rf "$temp_dir"
+        
+        print_success "Project downloaded and installed successfully"
     else
-        print_success "Running from existing project directory"
+        print_success "Project files already exist in $APP_DIR"
+        
+        # Ensure proper ownership even if files exist
+        sudo chown -R "$APP_USER:$APP_USER" "$APP_DIR"
     fi
-    
-    # Set APP_DIR to the correct path
-    APP_DIR="$(pwd)/app"
 }
 
 setup_application() {
     print_header "Setting Up $APP_NAME"
     
-    # Navigate to app directory
-    cd "$APP_DIR" || {
-        print_error "Cannot access app directory: $APP_DIR"
+    # The actual Next.js app is in the 'app' subdirectory
+    local app_subdir="$APP_DIR/app"
+    
+    # Check if app directory exists
+    if [[ ! -d "$app_subdir" ]]; then
+        print_error "App subdirectory not found: $app_subdir"
         exit 1
-    }
+    fi
     
     # Check if package.json exists
-    if [[ ! -f "package.json" ]]; then
-        print_error "package.json not found in app directory"
+    if [[ ! -f "$app_subdir/package.json" ]]; then
+        print_error "package.json not found in app directory: $app_subdir"
         exit 1
     fi
     
     print_info "Installing project dependencies..."
     
-    # Clear yarn cache to avoid potential issues
-    yarn cache clean > /dev/null 2>&1 || true
+    # Run yarn commands as the app user
+    print_info "Clearing yarn cache..."
+    sudo -u "$APP_USER" bash -c "cd '$app_subdir' && yarn cache clean" > /dev/null 2>&1 || true
     
-    # Install dependencies
-    yarn install --frozen-lockfile > /dev/null 2>&1 || {
+    print_info "Installing dependencies with yarn..."
+    if ! sudo -u "$APP_USER" bash -c "cd '$app_subdir' && yarn install --frozen-lockfile"; then
         print_warning "Frozen lockfile install failed, trying regular install..."
-        yarn install
-    }
+        if ! sudo -u "$APP_USER" bash -c "cd '$app_subdir' && yarn install"; then
+            print_error "Failed to install dependencies"
+            exit 1
+        fi
+    fi
     
     print_success "Project dependencies installed"
-    
-    # Build the application
-    print_info "Building the application..."
-    yarn build > /dev/null || {
-        print_error "Build failed! Check the output above for errors"
-        exit 1
-    }
     
     print_success "Application built successfully"
 }
@@ -610,37 +663,118 @@ setup_firewall() {
     fi
 }
 
+create_systemd_service() {
+    print_header "Creating systemd service"
+    
+    local service_name="ebrandi-puzzle"
+    local service_file="/etc/systemd/system/${service_name}.service"
+    local app_subdir="$APP_DIR/app"
+    
+    print_info "Creating systemd service file..."
+    
+    # Create the service file
+    sudo tee "$service_file" > /dev/null <<EOF
+[Unit]
+Description=Ebrandi Puzzle Generator - Educational Crossword and Puzzle Generator
+Documentation=https://github.com/ebrandi/puzzle-generator
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+User=$APP_USER
+Group=$APP_USER
+WorkingDirectory=$app_subdir
+Environment=NODE_ENV=production
+Environment=PORT=$PORT
+Environment=HOSTNAME=0.0.0.0
+ExecStart=/usr/bin/yarn start
+Restart=always
+RestartSec=10
+TimeoutSec=30
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=$service_name
+
+# Security settings
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=$APP_DIR
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target
+EOF
+    
+    # Reload systemd daemon
+    print_info "Reloading systemd daemon..."
+    sudo systemctl daemon-reload
+    
+    # Enable the service to start on boot
+    print_info "Enabling service to start on boot..."
+    sudo systemctl enable "$service_name"
+    
+    print_success "Systemd service created: $service_name"
+    sudo -u "$APP_USER" bash -c "echo '$service_name' > '$APP_DIR/.service_name'"
+}
+
+build_for_production() {
+    print_header "Building application for production"
+    
+    local app_subdir="$APP_DIR/app"
+    
+    print_info "Building Next.js application..."
+    
+    # Run build as the app user
+    if sudo -u "$APP_USER" bash -c "cd '$app_subdir' && yarn build"; then
+        print_success "Application built successfully"
+    else
+        print_error "Build failed"
+        return 1
+    fi
+}
+
 start_application() {
     print_header "Starting $APP_NAME"
     
     cd "$APP_DIR" || exit 1
     
-    # Kill any existing processes on the port
+    # Build the application for production
+    build_for_production || return 1
+    
+    # Create systemd service
+    create_systemd_service || return 1
+    
+    local service_name=$(cat "$APP_DIR/.service_name" 2>/dev/null || echo "ebrandi-puzzle")
+    
+    # Stop any existing service
+    print_info "Stopping any existing service..."
+    sudo systemctl stop "$service_name" 2>/dev/null || true
+    
+    # Kill any manual processes that might be running
     if lsof -Pi :$PORT -sTCP:LISTEN -t >/dev/null; then
-        print_info "Stopping existing application on port $PORT..."
+        print_info "Stopping existing processes on port $PORT..."
         pkill -f "next.*start" > /dev/null 2>&1 || true
         pkill -f "next.*dev" > /dev/null 2>&1 || true
         sleep 2
     fi
     
-    # Start the application in development mode
-    print_info "Starting application in development mode..."
-    print_info "This will run in the background. Use 'yarn start' for production mode."
+    # Start the service
+    print_info "Starting systemd service..."
+    sudo systemctl start "$service_name"
     
-    # Start in background
-    nohup yarn dev > /dev/null 2>&1 &
-    local app_pid=$!
-    
-    # Wait a moment for the app to start
+    # Wait a moment for the service to start
     sleep 5
     
-    # Check if the application is running
-    if kill -0 $app_pid 2>/dev/null; then
-        print_success "Application started successfully (PID: $app_pid)"
+    # Check if the service is running
+    if sudo systemctl is-active --quiet "$service_name"; then
+        print_success "Application service started successfully"
+        print_info "Service status: $(sudo systemctl is-active $service_name)"
     else
-        print_error "Failed to start the application"
-        print_info "Try running 'yarn dev' manually in the app directory"
-        exit 1
+        print_error "Failed to start application service"
+        print_info "Check service logs with: sudo journalctl -u $service_name -f"
+        return 1
     fi
 }
 
@@ -715,7 +849,14 @@ show_completion_info() {
         echo "1. Visit your domain: https://$DOMAIN"
         echo "2. Create your first crossword puzzle!"
         echo "3. SSL certificate will auto-renew every 90 days"
-        echo "4. Monitor your application with: sudo systemctl status nginx"
+        echo "4. The application runs as a systemd service and starts automatically"
+        
+        echo -e "\n${YELLOW}🔧 Application Service Management:${NC}"
+        echo "• Quick management: cd \"$APP_DIR\" && ./manage.sh status"
+        echo "• Check app status: sudo systemctl status ebrandi-puzzle"
+        echo "• View app logs: sudo journalctl -u ebrandi-puzzle -f"
+        echo "• Restart app: sudo systemctl restart ebrandi-puzzle"
+        echo "• For all commands: cd \"$APP_DIR\" && ./manage.sh help"
         
         echo -e "\n${YELLOW}📚 SSL & Nginx Management:${NC}"
         echo "• Check SSL certificate: sudo certbot certificates"
@@ -740,24 +881,27 @@ show_completion_info() {
         echo -e "\n${YELLOW}📋 Next Steps:${NC}"
         echo "1. Open your browser and visit: http://localhost:$PORT"
         echo "2. Create your first crossword puzzle!"
-        echo "3. For production deployment, run: yarn build && yarn start"
-        echo "4. To stop the application: pkill -f 'next.*dev'"
+        echo "3. The application runs as a systemd service and starts automatically"
+        echo "4. Use the service management commands below to control the application"
         
-        echo -e "\n${YELLOW}📚 Development Commands:${NC}"
-        echo "• Start development server: cd \"$APP_DIR\" && yarn dev"
-        echo "• Build for production: cd \"$APP_DIR\" && yarn build"
-        echo "• Start production server: cd \"$APP_DIR\" && yarn start"
-        echo "• View application logs: cd \"$APP_DIR\" && yarn dev"
+        echo -e "\n${YELLOW}🔧 Application Service Management:${NC}"
+        echo "• Quick management: cd \"$APP_DIR\" && ./manage.sh status"
+        echo "• Check app status: sudo systemctl status ebrandi-puzzle"
+        echo "• View app logs: sudo journalctl -u ebrandi-puzzle -f"
+        echo "• Restart app: sudo systemctl restart ebrandi-puzzle"
+        echo "• For all commands: cd \"$APP_DIR\" && ./manage.sh help"
     fi
     
     echo -e "\n${YELLOW}🆘 Need Help?${NC}"
     echo "• Check the README.md for detailed documentation"
     echo "• Report issues on GitHub"
     if [[ "$DEPLOYMENT_TYPE" == "public" ]]; then
-        echo "• Check nginx logs if domain doesn't work"
+        echo "• Check nginx logs if domain doesn't work: sudo tail -f /var/log/nginx/error.log"
         echo "• Verify DNS records point to this server"
+        echo "• Check service logs: sudo journalctl -u ebrandi-puzzle -f"
     else
-        echo "• Run 'yarn dev' manually if auto-start fails"
+        echo "• Check service status: sudo systemctl status ebrandi-puzzle"
+        echo "• View service logs: sudo journalctl -u ebrandi-puzzle -f"
     fi
     
     # Try to open browser (if GUI available and local deployment)
@@ -801,6 +945,8 @@ main() {
     update_system
     install_system_dependencies
     install_node
+    create_app_user
+    setup_app_directory
     download_project
     setup_application
     
