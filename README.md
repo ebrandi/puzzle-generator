@@ -430,7 +430,7 @@ Need help? Here are your options:
 
 - **Documentation**: Check this README and the [Developer Guide](DEVELOPER-GUIDE.md)
 - **Issues**: Create a GitHub issue for bugs or features
-- **Demo Site**: Try the live application at [https://puzzle.forca.club](https://puzzle.forca.club)
+- **Demo Site**: Offline for now
 
 ## 📚 Developer Documentation
 
