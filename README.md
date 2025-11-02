@@ -28,7 +28,7 @@ A comprehensive, multilingual puzzle generator built with Next.js. Create profes
 
 ## 🔗 Live Demo
 
-Visit the deployed application: **[https://puzzle.forca.club](https://puzzle.forca.club)**
+Visit the deployed application: Offline for now
 
 Experience the full functionality of the Ebrandi Puzzle Generator with:
 - ✅ All three game modes (Crossword, Word Search, Sudoku)
